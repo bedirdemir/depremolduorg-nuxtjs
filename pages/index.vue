@@ -1,8 +1,8 @@
 <template>
   <section class="py-3 px-2 min-h-screen lg:px-0">
     <ItemDetail v-if="useEarthquakeStore().isModalActive"></ItemDetail>
-    <LoadingSvg v-if="useEarthquakeStore().loading"></LoadingSvg>
-    <div v-else>
+    
+    <div v-if="useEarthquakeStore().loading">
         <div class="flex mb-3 text-center w-full shadow-sm">
           <div class="px-2 py-1 bg-yellow-300 text-xs  rounded-l w-1/4">Küçük</div>
           <div class="px-2 py-1 bg-red-500 text-xs text-white w-1/4">Orta</div>
@@ -13,6 +13,7 @@
           <ListItem v-for="(earthquake, i) in useEarthquakeStore().earthquakeList" :key="i" :data="earthquake"></ListItem>
         </ul>
     </div>
+    <LoadingSvg v-else></LoadingSvg>
   </section>
 </template>
 <script setup>
