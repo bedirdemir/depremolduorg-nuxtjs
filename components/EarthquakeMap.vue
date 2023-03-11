@@ -5,8 +5,7 @@
 export default {
   data(){
     return {
-      map: null,
-      earthquakeStore: useEarthquakeStore()
+      map: null
     }
   },
   mounted(){
@@ -20,7 +19,7 @@ export default {
           layer.bindPopup(feature.properties.popupContent);
       }
     };
-    L.geoJSON(this.earthquakeStore.geojsonFeature, {
+    L.geoJSON(useEarthquakeStore().geojsonFeature, {
       onEachFeature,
       style: (feature) => {
 			  return feature.properties && feature.properties.style;

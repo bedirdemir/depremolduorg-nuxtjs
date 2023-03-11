@@ -147,3 +147,11 @@
 
   </section>
 </template>
+<script setup>
+useHead({
+  title: 'Deprem ve Afet Bilinci Hakkında Bilmeniz Gerekenler | DepremOldu.org',
+  meta: [
+    { name: 'description', content: "Deprem Öncesinde, Deprem Anında ve Sonrasında Yapmanız Gerekenler. Çök-Kapan-Tutun Deprem Esnasında Nasıl Uygulanmalı? Deprem Nedir? Neden Oluşur? Depremler Tahmin Edilebilir Mi? Deprem Işıkları Nedir? Tsunami Nedir? Türkiye'de Tsunami Olabilir mi? Volkanik Patlama Nedir? Türkiye'deki Yanardağ Riski." }
+  ]
+})
+</script>
