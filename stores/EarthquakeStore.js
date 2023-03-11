@@ -24,9 +24,9 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			this.loading = true;
 
 			if(this.currentRoute == "/"){
-				AppAxios.get("/last/200")
+        useFetch('https://kandilli-earthquake-api.vercel.app/last/200')
 				.then(res => {
-					this.earthquakeList = res.data;
+					this.earthquakeList = res.data.value;
 					this.loading = false;
 				})
 				.catch(function (error) {
@@ -35,23 +35,23 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			};
 
 			if(this.currentRoute == "/map"){
-				AppAxios.get("/last/500")
+        useFetch('https://kandilli-earthquake-api.vercel.app/last/500')
 				.then(res => {
 					this.geojsonFeature.features = [];
-					for(let i = 0; i < res.data.length; i++){
+					for(let i = 0; i < res.data.value.length; i++){
 						const content = `
-							<b>${res.data[i].region}</b>
+							<b>${res.data.value[i].region}</b>
               <br>
-							<b>Büyüklük: </b>${res.data[i].magnitude} ${res.data[i].scale}
+							<b>Büyüklük: </b>${res.data.value[i].magnitude} ${res.data.value[i].scale}
               <br>
-							<b>Derinlik: </b>${res.data[i].depth} km
+							<b>Derinlik: </b>${res.data.value[i].depth} km
 							<br>
-							<b>Tarih: </b>${res.data[i].date} - ${res.data[i].time}
+							<b>Tarih: </b>${res.data.value[i].date} - ${res.data.value[i].time}
 							<br>
-							<b>Koordinat: </b>${res.data[i].lat}, ${res.data[i].long}
+							<b>Koordinat: </b>${res.data.value[i].lat}, ${res.data.value[i].long}
 							`;
 						const style = () => {
-							let magnitude = Number(res.data[i].magnitude);
+							let magnitude = Number(res.data.value[i].magnitude);
 							if (magnitude >= 6.5){
 								return {
 									fillColor:"#27272a",
@@ -78,8 +78,8 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 							"geometry": {
 								"type": "Point",
 								"coordinates": [
-									Number(res.data[i].long),
-									Number(res.data[i].lat)
+									Number(res.data.value[i].long),
+									Number(res.data.value[i].lat)
 								]
 							},
 							"type": "Feature",
