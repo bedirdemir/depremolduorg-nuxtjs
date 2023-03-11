@@ -42,12 +42,12 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 					for(let i = 0; i < res.data.length; i++){
 						const content = `
 							<b>${res.data[i].region}</b>
+              <br>
+							<b>Büyüklük: </b>${res.data[i].magnitude} ${res.data[i].scale}
+              <br>
+							<b>Derinlik: </b>${res.data[i].depth} km
 							<br>
 							<b>Tarih: </b>${res.data[i].date} - ${res.data[i].time}
-							<br>
-							<b>Büyüklük: </b>${res.data[i].magnitude} ${res.data[i].scale}
-							<br>
-							<b>Derinlik: </b>${res.data[i].depth} km
 							<br>
 							<b>Koordinat: </b>${res.data[i].lat}, ${res.data[i].long}
 							`;
