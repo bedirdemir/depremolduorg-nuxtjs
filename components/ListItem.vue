@@ -41,7 +41,7 @@
 <script>
 import moment from 'moment';
 import 'moment/dist/locale/tr.js';
-import 'moment/locale/tr';
+// import 'moment/locale/tr';
 import { useEarthquakeStore } from '~~/stores/EarthquakeStore';
 moment.locale('tr');
 
