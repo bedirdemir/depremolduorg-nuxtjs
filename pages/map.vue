@@ -1,7 +1,7 @@
 <template>
   <section class="min-h-[70%]">
-    <LoadingSvg v-if="useEarthquakeStore().loading"></LoadingSvg>
-    <EarthquakeMap v-else></EarthquakeMap>
+    <EarthquakeMap v-if="useEarthquakeStore().loading"></EarthquakeMap>
+    <LoadingSvg v-else></LoadingSvg>
   </section>
 </template>
 <script setup>

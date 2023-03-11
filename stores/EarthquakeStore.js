@@ -21,13 +21,13 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			this.selectedItem = item;
 		},
     getData(){
-			this.loading = true;
+			this.loading = false;
 
 			if(this.currentRoute == "/"){
         useFetch('https://kandilli-earthquake-api.vercel.app/last/200')
 				.then(res => {
 					this.earthquakeList = res.data.value;
-					this.loading = false;
+					this.loading = true;
 				})
 				.catch(function (error) {
 					console.log(error);
@@ -91,7 +91,7 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 						};
 						this.geojsonFeature.features.push(data);
 					};
-					this.loading = false;
+					this.loading = true;
 				})
 				.catch(function (error) {
 					console.log(error);
