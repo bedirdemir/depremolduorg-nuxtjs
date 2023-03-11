@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useEarthquakeStore = defineStore('EarthquakeStore', {
   state: () => ({
     earthquakeList: [],
-    loading: false,
+    loading: true,
     isModalActive: false,
     selectedItem: null,
     geojsonFeature: {
