@@ -39,16 +39,17 @@
 </template>
 
 <script>
-import moment from 'moment';
-import 'moment/dist/locale/tr.js';
-import 'moment/locale/tr';
-moment.locale('tr');
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+import 'dayjs/locale/tr';
+dayjs.extend(relativeTime);
+dayjs.locale('tr');
 
 export default {
   props: ['data'],
   methods: {
     getRelativeTime(date, time){
-      return moment(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
+      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
     },
     getDangerColor(magnitude){
       magnitude = Number(magnitude);

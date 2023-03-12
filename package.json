@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
-    "moment": "^2.29.4",
+    "dayjs": "^1.11.7",
     "pinia": "^2.0.33"
   },
   "overrides": {
