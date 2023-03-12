@@ -24,7 +24,7 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			this.loading = true;
 
 			if(this.currentRoute == "/"){
-        useFetch('https://kandilli-earthquake-api.vercel.app/last/200')
+        useFetch('https://api.depremoldu.org/last/200')
 				.then(res => {
 					this.earthquakeList = res.data.value;
 					this.loading = false;
@@ -35,7 +35,7 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			};
 
 			if(this.currentRoute == "/map"){
-        useFetch('https://kandilli-earthquake-api.vercel.app/last/500')
+        useFetch('https://api.depremoldu.org/last/500')
 				.then(res => {
 					this.geojsonFeature.features = [];
 					for(let i = 0; i < res.data.value.length; i++){
