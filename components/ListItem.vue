@@ -27,7 +27,7 @@
                 <svg class="w-4 inline-block text-gray-900" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960"><path d="M480 976 200 696l42-42 208 208V176h60v686l208-208 42 42-280 280Z"/></svg>
                   <span class="ml-1 text-stone-700">{{ data.depth }} km</span>
               </div>
-                <a @click="earthquakeStore.modalToggle(data)"  class="underline text-sm cursor-pointer">
+                <a @click="useEarthquakeStore().modalToggle(data)"  class="underline text-sm cursor-pointer">
                     Konumu görüntüle
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="w-3 inline-block"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
                 </a>
@@ -40,18 +40,12 @@
 
 <script>
 import moment from 'moment';
-import 'moment/dist/locale/tr.js';
-// import 'moment/locale/tr';
-import { useEarthquakeStore } from '~~/stores/EarthquakeStore';
+// import 'moment/dist/locale/tr.js';
+import 'moment/locale/tr';
 moment.locale('tr');
 
 export default {
   props: ['data'],
-  data(){
-    return {
-      earthquakeStore: useEarthquakeStore()
-    }
-  },
   methods: {
     getRelativeTime(date, time){
       return moment(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();

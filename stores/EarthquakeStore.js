@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export const useEarthquakeStore = defineStore('EarthquakeStore', {
   state: () => ({
     earthquakeList: [],
-    loading: false,
+    loading: null,
     isModalActive: false,
     selectedItem: null,
     geojsonFeature: {
@@ -21,13 +21,13 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			this.selectedItem = item;
 		},
     getData(){
-			this.loading = false;
+			this.loading = true;
 
 			if(this.currentRoute == "/"){
         useFetch('https://kandilli-earthquake-api.vercel.app/last/200')
 				.then(res => {
 					this.earthquakeList = res.data.value;
-					this.loading = true;
+					this.loading = false;
 				})
 				.catch(function (error) {
 					console.log(error);
@@ -91,7 +91,7 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 						};
 						this.geojsonFeature.features.push(data);
 					};
-					this.loading = true;
+					this.loading = false;
 				})
 				.catch(function (error) {
 					console.log(error);

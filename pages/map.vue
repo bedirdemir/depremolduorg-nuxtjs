@@ -1,17 +1,16 @@
 <template>
   <section class="min-h-[70%]">
-    <EarthquakeMap v-if="useEarthquakeStore().loading"></EarthquakeMap>
-    <LoadingSvg v-else></LoadingSvg>
+    <LoadingSvg v-if="useEarthquakeStore().loading"></LoadingSvg>
+    <EarthquakeMap v-else></EarthquakeMap>
   </section>
 </template>
 <script setup>
 useHead({
-  title: 'Türkiye Deprem Haritası- Son Depremler | DepremOldu.org',
+  title: 'Türkiye Deprem Haritası ve Son Depremler - Deprem Oldu',
   meta: [
-    { name: 'description', content: "Türkiye'de gerçekleşen son 500 depremin harita konumu. Türkiye deprem haritası. DepremOldu.org" }
+    { name: 'description', content: "Türkiye'de gerçekleşen son 500 depremin harita konumu. Türkiye deprem haritası. DepremOldu.org - Deprem Oldu" }
   ]
 })
-const route = useRoute()
-useEarthquakeStore().setCurrentRoute(route.path);
+useEarthquakeStore().setCurrentRoute(useRoute().path);
 useEarthquakeStore().getData();
 </script>
