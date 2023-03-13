@@ -43,13 +43,13 @@ import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import 'dayjs/locale/tr';
 dayjs.extend(relativeTime);
-dayjs.locale('tr');
+// dayjs.locale('tr');
 
 export default {
   props: ['data'],
   methods: {
     getRelativeTime(date, time){
-      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
+      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").locale('tr').fromNow();
     },
     getDangerColor(magnitude){
       magnitude = Number(magnitude);
