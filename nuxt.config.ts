@@ -59,8 +59,6 @@ export default defineNuxtConfig({
     dirs: ['stores'],
   },
   routeRules: {
-    "/**": {
-      swr: 2 * 2
-    },
+    "/**": {cache: { swr: true, maxAge: 5 }},
   }
 })
