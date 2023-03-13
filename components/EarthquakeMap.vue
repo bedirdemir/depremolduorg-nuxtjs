@@ -2,12 +2,11 @@
   <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script>
-const earthquakeStore = useEarthquakeStore();
-
 export default {
   data(){
     return {
-      map: null
+      map: null,
+      earthquakeStore: useEarthquakeStore()
     }
   },
   mounted(){
@@ -21,7 +20,7 @@ export default {
           layer.bindPopup(feature.properties.popupContent);
       }
     };
-    L.geoJSON(earthquakeStore.geojsonFeature, {
+    L.geoJSON(this.earthquakeStore.geojsonFeature, {
       onEachFeature,
       style: (feature) => {
 			  return feature.properties && feature.properties.style;
