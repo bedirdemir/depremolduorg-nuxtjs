@@ -2,6 +2,8 @@
   <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script>
+const earthquakeStore = useEarthquakeStore();
+
 export default {
   data(){
     return {
@@ -19,7 +21,7 @@ export default {
           layer.bindPopup(feature.properties.popupContent);
       }
     };
-    L.geoJSON(useEarthquakeStore().geojsonFeature, {
+    L.geoJSON(earthquakeStore.geojsonFeature, {
       onEachFeature,
       style: (feature) => {
 			  return feature.properties && feature.properties.style;
@@ -38,23 +40,23 @@ export default {
         var text = L.DomUtil.create('div', "");
         text.id = "info_text";
         text.innerHTML = `
-          <div class='flex flex-col text-[.65rem]'>
-          <div class='bg-primary p-1 text-white text-center'>SON 500 DEPREM</div>
-          <div class="flex items-end items-center p-1 space-x-2 bg-white">
+          <div class='flex flex-col shadow-sm text-[.65rem]'>
+          <div class='bg-primary p-1 text-white text-center rounded-t'>SON 500 DEPREM</div>
+          <div class="flex items-end items-center py-1 px-2 space-x-2 bg-white rounded-b">
           <div class='flex gap-1 items-center'>
             <div class='rounded-full p-[.25rem] bg-[#fde047] border-2 border-black'></div>
             Küçük
           </div>
           <div class='flex gap-1 items-center'>
-            <div class='rounded-full p-[.36rem] bg-[#ef4444] border-2 border-black'></div>
+            <div class='rounded-full p-[.35rem] bg-[#ef4444] border-2 border-black'></div>
             Orta
           </div>
           <div class='flex gap-1 items-center'>
-            <div class='rounded-full p-[.48rem] bg-[#7f1d1d] border-2 border-black'></div>
+            <div class='rounded-full p-[.45rem] bg-[#7f1d1d] border-2 border-black'></div>
             Büyük
           </div>
           <div class='flex gap-1 items-center'>
-            <div class='rounded-full p-[.56rem] bg-[#27272a] border-2 border-black'></div>
+            <div class='rounded-full p-[.55rem] bg-[#27272a] border-2 border-black'></div>
             Çok Büyük
           </div>
           </div>

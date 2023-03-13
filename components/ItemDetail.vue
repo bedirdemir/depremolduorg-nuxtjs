@@ -1,8 +1,8 @@
 <template>
-  <div class="modal" :class="{active: useEarthquakeStore().isModalActive}">
+  <div class="modal" :class="{active: isModalActive}">
     <div class="bg-white p-3 rounded flex flex-col w-11/12 lg:w-5/12">
       <div class="flex justify-end mb-3">
-        <a @click="useEarthquakeStore().modalToggle" class="flex items-center bg-primary text-white rounded cursor-pointer px-2 py-1 lg:p-2">
+        <a @click="toggle" class="flex items-center bg-primary text-white rounded cursor-pointer px-2 py-1 lg:p-2">
           <svg class="w-6 mr-1" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_429_11083)">
             <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,6 +21,8 @@
     </div>
 </template>
 <script>
+const earthquakeStore = useEarthquakeStore();
+
 export default {
   data(){
     return {
@@ -29,7 +31,7 @@ export default {
     }
   },
   mounted(){
-    this.selectedItem = useEarthquakeStore().selectedItem;
+    this.selectedItem = earthquakeStore.selectedItem;
     this.map = L.map("mapContainer").setView([this.selectedItem.lat, this.selectedItem.long], 9);
     L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
     attribution:
@@ -38,6 +40,16 @@ export default {
     L.marker([this.selectedItem.lat, this.selectedItem.long]).addTo(this.map)
     .bindPopup(`${this.selectedItem.region}<br><b>${this.selectedItem.magnitude} ${this.selectedItem.scale}</b>`)
     .openPopup();
-  }
+  },
+  computed: {
+    isModalActive(){
+      return earthquakeStore.isModalActive
+    }
+  },
+  methods: {
+    toggle(){
+      earthquakeStore.modalToggle()
+    }
+  },
 }
 </script>
