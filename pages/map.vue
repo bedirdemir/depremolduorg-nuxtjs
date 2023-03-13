@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-[70%]">
+  <section class="min-h-[75vh]">
     <LoadingSvg v-if="useEarthquakeStore().loading"></LoadingSvg>
     <EarthquakeMap v-else></EarthquakeMap>
   </section>

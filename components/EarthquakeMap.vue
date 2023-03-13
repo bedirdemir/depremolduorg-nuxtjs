@@ -1,5 +1,5 @@
 <template>
-  <div id="mapContainer" class=" min-h-[75vh]"></div>
+  <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script>
 export default {

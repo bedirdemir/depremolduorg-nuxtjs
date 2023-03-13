@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-[70vh] text-primary justify-center items-center">
-    <strong class="">Yükleniyor...</strong>
+  <div class="flex min-h-[75vh] text-primary justify-center items-center">
+    <div class="font-light">Yükleniyor...</div>
   </div>
 </template>
