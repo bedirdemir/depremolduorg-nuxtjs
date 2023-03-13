@@ -30,7 +30,7 @@ export default {
   },
   mounted(){
     this.selectedItem = useEarthquakeStore().selectedItem;
-    this.map = L.map("mapContainer").setView([this.selectedItem.lat, this.selectedItem.long], 8);
+    this.map = L.map("mapContainer").setView([this.selectedItem.lat, this.selectedItem.long], 9);
     L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
     attribution:
       '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>',
