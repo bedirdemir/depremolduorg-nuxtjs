@@ -58,4 +58,9 @@ export default defineNuxtConfig({
   imports: {
     dirs: ['stores'],
   },
+  routeRules: {
+    "/**": {
+      swr: 2 * 2
+    },
+  }
 })
