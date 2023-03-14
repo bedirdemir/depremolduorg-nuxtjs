@@ -61,7 +61,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/**": {
       swr: true,
-      headers: {'cache-control': 's-maxage=1, stale-while-revalidate'}
+      headers: {'cache-control': 's-maxage=0, stale-while-revalidate'}
     },
   }
 })
