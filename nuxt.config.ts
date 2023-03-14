@@ -59,6 +59,6 @@ export default defineNuxtConfig({
     dirs: ['stores'],
   },
   routeRules: {
-    "/**": {cache: { maxAge: 10 }},
+    "/**": {headers:{'Cache-Control': 'public, s-maxage=15, stale-while-revalidate=59'}},
   }
 })
