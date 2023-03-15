@@ -62,8 +62,8 @@ export default defineNuxtConfig({
     "/": {
       swr: 30
     },
-    "/_nuxt/": {
-      headers: {'cache-control': 's-maxage=9000'}
+    "/_nuxt/**": {
+      headers: {'cache-control': 'public, max-age=2592000, immutable'}
     },
   }
 })
