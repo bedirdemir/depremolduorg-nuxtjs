@@ -60,13 +60,13 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": {
-      swr: 1,
+      swr: 20,
       cache: {
         staleMaxAge: 20
       }
     },
     "/map": {
-      swr: 1,
+      swr: 20,
       cache: {
         staleMaxAge: 20
       }
