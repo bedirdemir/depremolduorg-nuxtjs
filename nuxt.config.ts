@@ -66,10 +66,7 @@ export default defineNuxtConfig({
       swr: 30
     },
     "/inform": {
-      swr: 9000
-    },
-    "/_nuxt/**": {
-      swr: 2592000
-    },
+      swr: 90000
+    }
   }
 })
