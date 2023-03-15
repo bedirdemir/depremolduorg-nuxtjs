@@ -60,7 +60,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": {
-      // swr: true,
+      swr: true,
       cache: {
         staleMaxAge: -1
       }
