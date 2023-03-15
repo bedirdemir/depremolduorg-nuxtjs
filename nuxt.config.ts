@@ -58,9 +58,9 @@ export default defineNuxtConfig({
   imports: {
     dirs: ['stores'],
   },
-  routeRules: {
-    "/**": {
-      headers: {'cache-control': 's-maxage=0, stale-while-revalidate'}
-    },
-  }
+  // routeRules: {
+  //   "/**": {
+  //     headers: {'cache-control': 's-maxage=0, stale-while-revalidate'}
+  //   },
+  // }
 })
