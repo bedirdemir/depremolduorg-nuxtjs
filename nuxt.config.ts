@@ -59,8 +59,11 @@ export default defineNuxtConfig({
     dirs: ['stores'],
   },
   routeRules: {
-    "/**": {
-      headers: {'cache-control': 's-maxage=30'}
+    "/": {
+      cache:{maxAge:30}
+    },
+    "/_nuxt/": {
+      cache:{maxAge:4000}
     },
   }
 })
