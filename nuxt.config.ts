@@ -63,7 +63,7 @@ export default defineNuxtConfig({
       swr: 30
     },
     "/_nuxt/": {
-      headers: {'cache-control': 's-maxage=8000'}
+      swr: 8000
     },
   }
 })
