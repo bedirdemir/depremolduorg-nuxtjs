@@ -60,15 +60,15 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": {
-      swr: true,
+      swr: 1,
       cache: {
-        staleMaxAge: -1
+        staleMaxAge: 20
       }
     },
     "/map": {
-      swr: true,
+      swr: 1,
       cache: {
-        staleMaxAge: 30
+        staleMaxAge: 20
       }
     },
     "/inform": {
