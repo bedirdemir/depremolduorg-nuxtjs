@@ -62,6 +62,12 @@ export default defineNuxtConfig({
     "/": {
       swr: 30
     },
+    "/map": {
+      swr: 30
+    },
+    "/inform": {
+      swr: true
+    },
     "/_nuxt/**": {
       headers: {'cache-control': 'public, max-age=2592000, immutable'}
     },
