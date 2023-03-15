@@ -66,10 +66,10 @@ export default defineNuxtConfig({
       swr: 30
     },
     "/inform": {
-      swr: true
+      swr: 9000
     },
     "/_nuxt/**": {
-      headers: {'cache-control': 'public, max-age=2592000, immutable'}
+      swr: 2592000
     },
   }
 })
