@@ -60,10 +60,10 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/": {
-      cache:{maxAge:30}
+      swr: 30
     },
     "/_nuxt/": {
-      cache:{maxAge:4000}
+      headers: {'cache-control': 's-maxage=8000'}
     },
   }
 })
