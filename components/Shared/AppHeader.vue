@@ -2,7 +2,7 @@
   <header class="flex justify-between items-center pt-3 pb-2 lg:pt-4 px-2 lg:px-0 bg-[#FCFFE760] lg:bg-inherit">
     <div class="flex items-center space-x-1">
       <svg class="w-8 lg:w-12 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-      <a href="https://depremoldu.org/">
+      <a href="https://www.depremoldu.org/">
         <h1 class="text-secondary text-base font-medium lg:text-xl">depremoldu<span class="text-primary">.org</span></h1>
       </a>
     </div>
