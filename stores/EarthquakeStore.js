@@ -97,7 +97,6 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 					console.log(error);
 				});
 			};
-			
 		}
   }
 })
