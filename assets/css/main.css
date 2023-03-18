@@ -18,10 +18,17 @@
     .modal.active {
         @apply visible opacity-100;
     }
-    .loading-svg {
-        margin: auto;
-        display: block; 
-        shape-rendering: auto;
-        width: 5rem;
+    
+    @keyframes spinner {
+      to {transform: rotate(360deg);}
+    }
+    .spinner {
+      position: absolute;
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      border-top-color: #EB455F;
+      animation: spinner .6s linear infinite;
     }
 }
