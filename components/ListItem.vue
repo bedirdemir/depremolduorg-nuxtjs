@@ -13,7 +13,7 @@
             <div class="flex flex-col text-sm lg:text-base">
               <div class="flex items-center">
                 <svg class="w-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                <span class="font-medium ml-1">{{ getRelativeTime(data.date, data.time) }}</span>
+                <span class="font-medium ml-1">{{ earthquakeStore.getRelativeTime(data.date, data.time) }}</span>
               </div>
               <div class="flex items-center">
                 <svg class="w-4 text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
@@ -35,37 +35,23 @@
     </div>
   </li>
 </template>
+<script setup>
+const earthquakeStore = useEarthquakeStore();
+const props = defineProps({
+  data: Object
+});
 
-<script>
-import dayjs from 'dayjs';
-import relativeTime from 'dayjs/plugin/relativeTime';
-import 'dayjs/locale/tr';
-dayjs.extend(relativeTime);
-dayjs.locale('tr');
-
-export default {
-  props: ['data'],
-  data(){
-    return {
-      earthquakeStore: useEarthquakeStore()
-    }
-  },
-  methods: {
-    getRelativeTime(date, time){
-      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
-    },
-    getDangerColor(magnitude){
-      magnitude = Number(magnitude);
-      if (magnitude >= 6.5){
-        return {'bg-zinc-800': true, 'text-white': true}
-      }else if (magnitude >= 5.0 && magnitude < 6.5){
-        return {'bg-red-900': true, 'text-white': true}
-      }else if (magnitude >= 4.0 && magnitude < 5.0){
-        return {'bg-red-500': true, 'text-white': true}
-      }else{
-        return {'bg-yellow-300': true}
-      }
-    }
+const getDangerColor = (magnitude) => {
+  magnitude = Number(magnitude);
+  if (magnitude >= 6.5){
+    return {'bg-zinc-800': true, 'text-white': true}
+  }else if (magnitude >= 5.0 && magnitude < 6.5){
+    return {'bg-red-900': true, 'text-white': true}
+  }else if (magnitude >= 4.0 && magnitude < 5.0){
+    return {'bg-red-500': true, 'text-white': true}
+  }else{
+    return {'bg-yellow-300': true}
   }
-};
+}
+
 </script>

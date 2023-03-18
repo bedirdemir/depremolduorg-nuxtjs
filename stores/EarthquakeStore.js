@@ -1,4 +1,10 @@
 import { defineStore } from "pinia";
+import dayjs from 'dayjs';
+import relativeTime from 'dayjs/plugin/relativeTime';
+import 'dayjs/locale/tr';
+
+dayjs.extend(relativeTime);
+dayjs.locale('tr');
 
 export const useEarthquakeStore = defineStore('EarthquakeStore', {
   state: () => ({
@@ -20,6 +26,9 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 			this.isModalActive = !this.isModalActive;
 			this.selectedItem = item;
 		},
+    getRelativeTime(date, time){
+      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
+    },
     getData(){
 			this.loading = true;
 
@@ -40,15 +49,24 @@ export const useEarthquakeStore = defineStore('EarthquakeStore', {
 					this.geojsonFeature.features = [];
 					for(let i = 0; i < res.data.value.length; i++){
 						const content = `
-							<b>${res.data.value[i].region}</b>
-              <br>
-							<b>Büyüklük: </b>${res.data.value[i].magnitude} ${res.data.value[i].scale}
-              <br>
-							<b>Derinlik: </b>${res.data.value[i].depth} km
-							<br>
-							<b>Tarih: </b>${res.data.value[i].date} - ${res.data.value[i].time}
-							<br>
-							<b>Koordinat: </b>${res.data.value[i].lat}, ${res.data.value[i].long}
+              <div class='flex flex-col'>
+                <b class='border-b mb-1 pb-1'>${res.data.value[i].region}</b>
+                <span>
+                  <i>${this.getRelativeTime(res.data.value[i].date, res.data.value[i].time)}</i>
+                </span>
+                <span>
+                  <b>Büyüklük: </b>${res.data.value[i].magnitude} ${res.data.value[i].scale}
+                </span>
+                <span>
+                  <b>Derinlik: </b>${res.data.value[i].depth} km
+                </span>
+                <span>
+                  <b>Tarih: </b>${res.data.value[i].date} - ${res.data.value[i].time}
+                </span>
+                <span>
+                  <b>Koordinat: </b>${res.data.value[i].lat}, ${res.data.value[i].long}
+                </span>
+              </div>
 							`;
 						const style = () => {
 							let magnitude = Number(res.data.value[i].magnitude);
