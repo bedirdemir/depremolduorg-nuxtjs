@@ -17,12 +17,17 @@
 </template>
 <script setup>
 const earthquakeStore = useEarthquakeStore();
+
+earthquakeStore.setCurrentRoute(useRoute().path);
+earthquakeStore.getData();
+
 useHead({
   title: 'Son Depremler ve Deprem Haritası - Deprem Oldu',
   meta: [
     { name: 'description', content: "Türkiye'de gerçekleşen son depremler. Türkiye deprem haritası. Deprem ve Afet Bilinci Hakkında Bilmeniz Gerekenler. DepremOldu.org - Deprem Oldu" }
   ]
 });
-earthquakeStore.setCurrentRoute(useRoute().path);
-earthquakeStore.getData();
+
+
+
 </script>

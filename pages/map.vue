@@ -6,12 +6,14 @@
 </template>
 <script setup>
 const earthquakeStore = useEarthquakeStore();
+
+earthquakeStore.setCurrentRoute(useRoute().path);
+earthquakeStore.getData();
+
 useHead({
   title: 'Türkiye Deprem Haritası ve Son Depremler - Deprem Oldu',
   meta: [
     { name: 'description', content: "Türkiye'de gerçekleşen son 500 depremin harita konumu. Türkiye deprem haritası. DepremOldu.org - Deprem Oldu" }
   ]
 });
-earthquakeStore.setCurrentRoute(useRoute().path);
-earthquakeStore.getData();
 </script>
