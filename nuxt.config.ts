@@ -103,8 +103,8 @@ export default defineNuxtConfig({
     // },
     "/": {
       ssr: false,
-      cache: {
-        maxAge: 60 * 60
+      headers: {
+        'cache-control': 's-maxage=3600'
       }
     },
     // "/map": {
@@ -115,8 +115,8 @@ export default defineNuxtConfig({
     // },
     "/map": {
       ssr: false,
-      cache: {
-        maxAge: 60 * 60 * 24
+      headers: {
+        'cache-control': 's-maxage=3600'
       }
     },
     "/inform": {
