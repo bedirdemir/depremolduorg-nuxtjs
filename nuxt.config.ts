@@ -104,7 +104,7 @@ export default defineNuxtConfig({
     "/": {
       ssr: false,
       cache: {
-        maxAge: 60 * 60 * 24
+        maxAge: 60 * 60
       }
     },
     // "/map": {
@@ -120,7 +120,7 @@ export default defineNuxtConfig({
       }
     },
     "/inform": {
-      swr: 60 * 60 * 24
+      swr: 60 * 60
     }
   }
 });
