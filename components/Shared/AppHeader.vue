@@ -5,7 +5,7 @@
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
       </svg>
       <a href="https://www.depremoldu.org/">
-        <h1 class="text-secondary text-lg font-medium lg:text-xl">depremoldu<span class="text-primary">.org</span></h1>
+        <h1 class="text-secondary font-normal lg:text-xl">depremoldu<span class="text-primary">.org</span></h1>
       </a>
     </div>
     <div>
