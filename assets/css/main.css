@@ -33,4 +33,20 @@
     border-top-color: #eb455f;
     animation: spinner 0.6s linear infinite;
   }
+  .danger-bg-1 {
+    background: rgb(253, 224, 71);
+    background: linear-gradient(90deg, rgba(253, 223, 71, 0.085) 20%, rgba(255, 255, 255, 1) 90%);
+  }
+  .danger-bg-2 {
+    background: rgb(239, 68, 68);
+    background: linear-gradient(90deg, rgba(239, 68, 68, 0.085) 20%, rgba(255, 255, 255, 1) 90%);
+  }
+  .danger-bg-3 {
+    background: rgb(127, 29, 29);
+    background: linear-gradient(90deg, rgba(127, 29, 29, 0.085) 20%, rgba(255, 255, 255, 1) 90%);
+  }
+  .danger-bg-4 {
+    background: rgb(39, 39, 42);
+    background: linear-gradient(90deg, rgba(39, 39, 42, 0.085) 20%, rgba(255, 255, 255, 1) 90%);
+  }
 }

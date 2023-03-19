@@ -1,8 +1,8 @@
 <template>
-  <li class="mb-2 shadow bg-[#FCFFE720]">
+  <li :class="getDangerColor(data.magnitude).dangerBg" class="mb-2 shadow">
     <div class="flex justify-between p-3 border rounded w-full">
       <div class="flex items-center gap-5 lg:gap-6 w-full">
-        <span :class="getDangerColor(data.magnitude)" class="flex flex-col justify-center items-center border rounded p-5 font-semibold text-xl lg:p-6 lg:text-2xl">
+        <span :class="getDangerColor(data.magnitude).dangerBox" class="flex flex-col justify-center items-center border rounded p-5 font-semibold text-xl lg:p-6 lg:text-2xl">
           {{ data.magnitude }}
           <span class="text-xs font-normal">
             {{ data.scale }}
@@ -54,17 +54,29 @@ const earthquakeStore = useEarthquakeStore();
 const props = defineProps({
   data: Object
 });
-
+let bg = null;
 const getDangerColor = magnitude => {
   magnitude = Number(magnitude);
   if (magnitude >= 6.5) {
-    return { "bg-zinc-800": true, "text-white": true };
+    return {
+      dangerBox: { "bg-zinc-800": true, "text-white": true },
+      dangerBg: { "danger-bg-4": true }
+    };
   } else if (magnitude >= 5.0 && magnitude < 6.5) {
-    return { "bg-red-900": true, "text-white": true };
+    return {
+      dangerBox: { "bg-red-900": true, "text-white": true },
+      dangerBg: { "danger-bg-3": true }
+    };
   } else if (magnitude >= 4.0 && magnitude < 5.0) {
-    return { "bg-red-500": true, "text-white": true };
+    return {
+      dangerBox: { "bg-red-500": true, "text-white": true },
+      dangerBg: { "danger-bg-2": true }
+    };
   } else {
-    return { "bg-yellow-300": true };
+    return {
+      dangerBox: { "bg-yellow-300": true },
+      dangerBg: { "danger-bg-1": true }
+    };
   }
 };
 </script>
