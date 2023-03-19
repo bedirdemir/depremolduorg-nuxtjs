@@ -1,22 +1,22 @@
 {
-    "short_name": "Deprem Oldu",
-    "name": "Deprem Oldu",
-    "description": "Türkiye'de gerçekleşen son depremler.",
-    "theme_color": "#EB455F",
-    "background_color": "#EB455F",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
-    "icons": [
-      {
-        "src": "/android-chrome-192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/android-chrome-512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ]
+  "short_name": "Deprem Oldu",
+  "name": "Deprem Oldu",
+  "description": "Türkiye'de gerçekleşen son depremler.",
+  "theme_color": "#EB455F",
+  "background_color": "#EB455F",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }

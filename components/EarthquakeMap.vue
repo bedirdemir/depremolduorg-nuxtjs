@@ -5,22 +5,21 @@
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
-  const map = L.map("mapContainer").setView([39.1300, 35.2110], 5);
+  const map = L.map("mapContainer").setView([39.13, 35.211], 5);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution:
-    '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>',
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
   function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.popupContent) {
       layer.bindPopup(feature.properties.popupContent);
     }
-  };
+  }
 
   L.geoJSON(earthquakeStore.geojsonFeature, {
     onEachFeature,
-    style: (feature) => {
-			return feature.properties && feature.properties.style;
+    style: feature => {
+      return feature.properties && feature.properties.style;
     },
     pointToLayer: (feature, latlng) => {
       return L.circleMarker(latlng, {
@@ -33,8 +32,8 @@ onMounted(() => {
   }).addTo(map);
 
   L.Control.textbox = L.Control.extend({
-    onAdd: function(map) {
-      var text = L.DomUtil.create('div', "");
+    onAdd: function (map) {
+      var text = L.DomUtil.create("div", "");
       text.id = "info_text";
       text.innerHTML = `
         <div class='flex flex-col shadow-sm text-[.65rem]'>
@@ -58,12 +57,14 @@ onMounted(() => {
             </div>
           </div>
         </div>
-        `
+        `;
       return text;
     }
   });
 
-  L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
-  L.control.textbox({ position: 'topright' }).addTo(map);
-  })
+  L.control.textbox = function (opts) {
+    return new L.Control.textbox(opts);
+  };
+  L.control.textbox({ position: "topright" }).addTo(map);
+});
 </script>

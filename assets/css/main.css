@@ -1,34 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: 'Open Sans', sans-serif;
-        @apply bg-background overflow-y-scroll;
-    }
+  html {
+    font-family: "Open Sans", sans-serif;
+    @apply bg-background overflow-y-scroll;
+  }
 }
 
 @layer components {
-    .modal {
-        @apply fixed inset-0 bg-gray-600 bg-opacity-60 flex items-center justify-center opacity-0 invisible;
+  .modal {
+    @apply fixed inset-0 bg-gray-600 bg-opacity-60 flex items-center justify-center opacity-0 invisible;
+  }
+  .modal.active {
+    @apply visible opacity-100;
+  }
+
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
     }
-    .modal.active {
-        @apply visible opacity-100;
-    }
-    
-    @keyframes spinner {
-      to {transform: rotate(360deg);}
-    }
-    .spinner {
-      position: absolute;
-      width: 3rem;
-      height: 3rem;
-      border-radius: 50%;
-      border: 2px solid #ccc;
-      border-top-color: #EB455F;
-      animation: spinner .6s linear infinite;
-    }
+  }
+  .spinner {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #eb455f;
+    animation: spinner 0.6s linear infinite;
+  }
 }
