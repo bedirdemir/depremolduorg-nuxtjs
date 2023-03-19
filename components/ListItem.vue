@@ -1,5 +1,5 @@
 <template>
-  <li class="mb-2 shadow bg-[#FCFFE760]">
+  <li class="mb-2 shadow bg-[#FCFFE720]">
     <div class="flex justify-between p-3 border rounded w-full">
       <div class="flex items-center gap-5 lg:gap-6 w-full">
         <span :class="getDangerColor(data.magnitude)" class="flex flex-col justify-center items-center border rounded p-5 font-semibold text-xl lg:p-6 lg:text-2xl">

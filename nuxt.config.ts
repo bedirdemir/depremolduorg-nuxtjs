@@ -95,17 +95,23 @@ export default defineNuxtConfig({
     dirs: ["stores"]
   },
   routeRules: {
+    // "/": {
+    //   swr: 60,
+    //   cache: {
+    //     staleMaxAge: 55
+    //   }
+    // },
     "/": {
-      swr: 60,
-      cache: {
-        staleMaxAge: 55
-      }
+      ssr: false
     },
+    // "/map": {
+    //   swr: 60,
+    //   cache: {
+    //     staleMaxAge: 55
+    //   }
+    // },
     "/map": {
-      swr: 60,
-      cache: {
-        staleMaxAge: 55
-      }
+      ssr: false
     },
     "/inform": {
       swr: 60 * 60 * 24

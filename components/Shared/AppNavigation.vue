@@ -1,14 +1,14 @@
 <template>
-  <nav class="border-b border-gray-300 bg-[#FCFFE760] lg:bg-inherit">
+  <nav class="sticky top-0 border-b border-gray-300 backdrop-blur-2xl bg-white/75 py-1">
     <ul class="flex space-x-4 py-1 lg:py-2 justify-center">
       <li>
-        <NuxtLink to="/" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-2 border-primary"> Son Depremler </NuxtLink>
+        <NuxtLink to="/" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-4 border-primary"> Son Depremler </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/map" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-2 border-primary"> Deprem Haritası </NuxtLink>
+        <NuxtLink to="/map" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-4 border-primary"> Deprem Haritası </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/inform" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-2 border-primary"> Bilgilendirme </NuxtLink>
+        <NuxtLink to="/inform" class="pb-1 lg:pb-2 hover:text-primary transition-all text-sm font-medium lg:text-base" active-class="text-primary border-b-4 border-primary"> Bilgilendirme </NuxtLink>
       </li>
     </ul>
   </nav>
