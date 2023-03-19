@@ -1,22 +1,15 @@
 <template>
   <div class="modal" :class="{ active: earthquakeStore.isModalActive }">
-    <div class="bg-white p-3 rounded flex flex-col w-11/12 lg:w-5/12">
-      <div class="flex justify-end mb-3">
-        <a @click="earthquakeStore.modalToggle()" class="flex items-center bg-primary text-white rounded cursor-pointer px-2 py-1 lg:p-2">
-          <svg class="w-6 mr-1" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_429_11083)">
-              <path d="M7 7.00006L17 17.0001M7 17.0001L17 7.00006" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-            </g>
-            <defs>
-              <clipPath id="clip0_429_11083">
-                <rect width="24" height="24" fill="white" />
-              </clipPath>
-            </defs>
+    <div class="bg-white p-2 rounded flex flex-col w-[95%] lg:w-5/12">
+      <div class="flex justify-end mb-2">
+        <a @click="earthquakeStore.modalToggle()" class="bg-primary text-white rounded cursor-pointer p-1.5">
+          <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
           </svg>
-          Kapat
         </a>
       </div>
-      <div id="mapContainer" class="h-96"></div>
+      <div id="mapContainer" class="h-[26rem]"></div>
     </div>
   </div>
 </template>
