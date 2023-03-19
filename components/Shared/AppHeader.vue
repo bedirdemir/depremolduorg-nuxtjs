@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center pt-3 border-t-[3px] border-primary lg:pt-4 px-2 lg:px-1 mb-1 lg:mb-0">
+  <header class="flex justify-between items-center pt-3 lg:border-t-[3px] border-primary lg:pt-4 px-2 lg:px-1 mb-1 lg:mb-0">
     <div class="flex items-center space-x-1">
       <svg class="w-8 lg:w-12 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
