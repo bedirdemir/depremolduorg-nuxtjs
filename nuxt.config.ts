@@ -104,7 +104,7 @@ export default defineNuxtConfig({
     "/": {
       ssr: false,
       headers: {
-        'cache-control': 's-maxage=7200'
+        'cache-control': 's-maxage=86400'
       }
     },
     // "/map": {
@@ -116,7 +116,7 @@ export default defineNuxtConfig({
     "/map": {
       ssr: false,
       headers: {
-        'cache-control': 's-maxage=7200'
+        'cache-control': 's-maxage=86400'
       }
     },
     "/inform": {
