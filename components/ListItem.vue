@@ -54,7 +54,7 @@ const earthquakeStore = useEarthquakeStore();
 const props = defineProps({
   data: Object
 });
-let bg = null;
+
 const getDangerColor = magnitude => {
   magnitude = Number(magnitude);
   if (magnitude >= 6.5) {

@@ -6,6 +6,8 @@ import "dayjs/locale/tr";
 dayjs.extend(relativeTime);
 dayjs.locale("tr");
 
+const apiURL = "https://api.depremoldu.org/last/";
+
 export const useEarthquakeStore = defineStore("EarthquakeStore", {
   state: () => ({
     earthquakeList: [],
@@ -16,12 +18,8 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
       type: "FeatureCollection",
       features: []
     },
-    currentRoute: null
   }),
   actions: {
-    setCurrentRoute(route) {
-      this.currentRoute = route;
-    },
     modalToggle(item) {
       this.isModalActive = !this.isModalActive;
       this.selectedItem = item;
@@ -29,11 +27,11 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
     getRelativeTime(date, time) {
       return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
     },
-    getData() {
+    getData(currentRoute) {
       this.loading = true;
 
-      if (this.currentRoute == "/") {
-        useFetch("https://api.depremoldu.org/last/200")
+      if (currentRoute == "/") {
+        useFetch(apiURL + 200)
           .then(res => {
             this.earthquakeList = res.data.value;
             this.loading = false;
@@ -43,8 +41,8 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
           });
       }
 
-      if (this.currentRoute == "/map") {
-        useFetch("https://api.depremoldu.org/last/500")
+      if (currentRoute == "/map") {
+        useFetch(apiURL + 500)
           .then(res => {
             this.geojsonFeature.features = [];
             for (let i = 0; i < res.data.value.length; i++) {
@@ -69,7 +67,7 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
               </div>
 							`;
               const style = () => {
-                let magnitude = Number(res.data.value[i].magnitude);
+                let magnitude = res.data.value[i].magnitude;
                 if (magnitude >= 6.5) {
                   return {
                     fillColor: "#27272a",
@@ -95,7 +93,7 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
               const data = {
                 geometry: {
                   type: "Point",
-                  coordinates: [Number(res.data.value[i].long), Number(res.data.value[i].lat)]
+                  coordinates: [res.data.value[i].long, res.data.value[i].lat]
                 },
                 type: "Feature",
                 properties: {
