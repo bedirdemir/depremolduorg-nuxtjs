@@ -8,8 +8,8 @@
         <h1 class="text-secondary font-normal lg:text-xl">depremoldu<span class="text-primary">.org</span></h1>
       </a>
     </div>
-    <div>
-      <a @click="getData()" class="flex items-center text-primary bg-white border border-primary/20 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-xs lg:text-sm px-3 py-1.5 lg:px-3 lg:py-2 cursor-pointer transition-all">
+    <div v-if="useRoute().path != '/inform'">
+      <a @click="getData(useRoute().path)" class="flex items-center text-primary bg-white border border-primary/20 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-xs lg:text-sm px-3 py-1.5 lg:px-3 lg:py-2 cursor-pointer transition-all">
         <svg class="w-[.9rem] lg:w-4 mr-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="23 4 23 10 17 10"></polyline>
           <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>

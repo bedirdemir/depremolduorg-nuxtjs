@@ -9,6 +9,28 @@
     font-family: "Open Sans", sans-serif;
     @apply bg-white overflow-y-scroll;
   }
+
+  body {
+    --sb-track-color: #fcffe7;
+    --sb-thumb-color: #eb455f;
+    --sb-size: 10px;
+
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+
+  body::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 1px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 1px;
+  }
 }
 
 @layer components {

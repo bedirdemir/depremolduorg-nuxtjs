@@ -7,8 +7,7 @@
 <script setup>
 const earthquakeStore = useEarthquakeStore();
 
-earthquakeStore.setCurrentRoute(useRoute().path);
-earthquakeStore.getData();
+earthquakeStore.getData(useRoute().path);
 
 useHead({
   title: "Türkiye Deprem Haritası ve Son Depremler - Deprem Oldu",
