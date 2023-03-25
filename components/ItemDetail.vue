@@ -19,8 +19,9 @@ const selectedItem = earthquakeStore.selectedItem;
 
 onMounted(() => {
   const map = L.map("mapContainer").setView([selectedItem.lat, selectedItem.long], 9);
-  L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 16,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
   L.marker([selectedItem.lat, selectedItem.long]).addTo(map).bindPopup(`${selectedItem.region}<br><b>${selectedItem.magnitude} ${selectedItem.scale}</b>`).openPopup();
 });

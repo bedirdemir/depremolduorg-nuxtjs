@@ -6,8 +6,9 @@ const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
   const map = L.map("mapContainer").setView([39.13, 35.211], 5);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    maxZoom: 16,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
 
   function onEachFeature(feature, layer) {
