@@ -7,7 +7,7 @@ const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
   const map = L.map("mapContainer", {
-    preferCanvas: true,
+    preferCanvas: true
   }).setView([39.13, 35.211], 5);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 16,
@@ -20,6 +20,7 @@ onMounted(() => {
     }
   }
 
+  // Earthquakes layer
   L.geoJSON(earthquakeStore.geojsonFeature, {
     onEachFeature,
     style: feature => {
@@ -35,6 +36,7 @@ onMounted(() => {
     }
   }).addTo(map);
 
+  // Info text
   L.Control.textbox = L.Control.extend({
     onAdd: function (map) {
       var text = L.DomUtil.create("div", "");
@@ -71,17 +73,16 @@ onMounted(() => {
   };
   L.control.textbox({ position: "topright" }).addTo(map);
 
+  // Fault data layer
   let faultLayer = L.geoJSON(faultData, {
     onEachFeature,
-    style: feature => {
-      return {
-        color: "#EB455F",
-        weight: 1.1,
-        opacity: 0.7
-      };
+    style: {
+      color: "#EB455F",
+      weight: 1.1,
+      opacity: 0.7
     }
   });
 
-  L.control.layers(null, null, { collapsed:false }).addTo(map).addOverlay(faultLayer, "Fay Hatları");
+  L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(faultLayer, "Fay Hatları");
 });
 </script>
