@@ -2,6 +2,7 @@
   <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script setup>
+import { faultData } from "../stores/faultData/faultData.js";
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
@@ -78,21 +79,21 @@ onMounted(() => {
   };
   L.control.textbox({ position: "topright" }).addTo(map);
 
-// L.geoJSON(geo, {
-//     onEachFeature,
-//     style: feature => {
-//       return {
-//         color: '#EB455F',
-//         weight: 1,
-//         opacity: 0.7,
-//       }
-//     }
-//   }).addTo(map);
+  L.geoJSON(faultData, {
+    onEachFeature,
+    style: feature => {
+      return {
+        color: "#EB455F",
+        weight: 1.1,
+        opacity: 0.7
+      };
+    }
+  }).addTo(map);
 
-  var kmz = L.kmzLayer().addTo(map);
-  for (let i = 0; i < earthquakeStore.faultKMZList.length; i++) {
-    kmz.load(earthquakeStore.faultKMZList[i]);
-  }
+  // var kmz = L.kmzLayer().addTo(map);
+  // for (let i = 0; i < earthquakeStore.faultKMZList.length; i++) {
+  //   kmz.load(earthquakeStore.faultKMZList[i]);
+  // }
   // L.control.layers(null, null, { collapsed:false }).addTo(map);
 });
 </script>
