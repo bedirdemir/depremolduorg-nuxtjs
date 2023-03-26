@@ -18,6 +18,18 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
       type: "FeatureCollection",
       features: []
     },
+    faultKMZList:[
+      '/KMZ/AFEAD_I35.kmz',
+      '/KMZ/AFEAD_I36.kmz',
+      '/KMZ/AFEAD_J35.kmz',
+      '/KMZ/AFEAD_J36.kmz',
+      '/KMZ/AFEAD_J37.kmz',
+      '/KMZ/AFEAD_J38.kmz',
+      '/KMZ/AFEAD_K35.kmz',
+      '/KMZ/AFEAD_K36.kmz',
+      '/KMZ/AFEAD_K37.kmz',
+      '/KMZ/AFEAD_K38.kmz'
+    ],
   }),
   actions: {
     modalToggle(item) {
