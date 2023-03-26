@@ -7,7 +7,7 @@ const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
   const map = L.map("mapContainer", {
-    preferCanvas: true // recommended when loading large layers.
+    preferCanvas: true,
   }).setView([39.13, 35.211], 5);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 16,
@@ -61,14 +61,6 @@ onMounted(() => {
             </div>
           </div>
         </div>
-
-        <div class='bg-white shadow-sm rounded mt-1 py-1 flex items-center justify-end'>
-          <span class="mr-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fay Hatları</span>
-          <label class="relative mr-3 inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer">
-            <div class="w-11 h-5 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-          </label>
-        </div>
         `;
       return text;
     }
@@ -79,7 +71,7 @@ onMounted(() => {
   };
   L.control.textbox({ position: "topright" }).addTo(map);
 
-  L.geoJSON(faultData, {
+  let faultLayer = L.geoJSON(faultData, {
     onEachFeature,
     style: feature => {
       return {
@@ -88,12 +80,8 @@ onMounted(() => {
         opacity: 0.7
       };
     }
-  }).addTo(map);
+  });
 
-  // var kmz = L.kmzLayer().addTo(map);
-  // for (let i = 0; i < earthquakeStore.faultKMZList.length; i++) {
-  //   kmz.load(earthquakeStore.faultKMZList[i]);
-  // }
-  // L.control.layers(null, null, { collapsed:false }).addTo(map);
+  L.control.layers(null, null, { collapsed:false }).addTo(map).addOverlay(faultLayer, "Fay Hatları");
 });
 </script>
