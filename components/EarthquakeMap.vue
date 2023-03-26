@@ -5,7 +5,9 @@
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
-  const map = L.map("mapContainer").setView([39.13, 35.211], 5);
+  const map = L.map("mapContainer", {
+    preferCanvas: true // recommended when loading large layers.
+  }).setView([39.13, 35.211], 5);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 16,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
@@ -75,6 +77,17 @@ onMounted(() => {
     return new L.Control.textbox(opts);
   };
   L.control.textbox({ position: "topright" }).addTo(map);
+
+// L.geoJSON(geo, {
+//     onEachFeature,
+//     style: feature => {
+//       return {
+//         color: '#EB455F',
+//         weight: 1,
+//         opacity: 0.7,
+//       }
+//     }
+//   }).addTo(map);
 
   var kmz = L.kmzLayer().addTo(map);
   for (let i = 0; i < earthquakeStore.faultKMZList.length; i++) {
