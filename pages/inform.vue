@@ -7,7 +7,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Depremlerde can ve mal kayıplarının artmasının en önemli nedenlerinden biri de sarsıntı sırasında kişilerin kendilerini nasıl koruyacaklarını ve ne yapmaları gerektiğini bilmemeleridir. Peki, deprem anında ne yapmanız gerekiyor?<small class="italic"> -AFAD</small></p>
         <a href="https://www.afad.gov.tr/deprem-aninda-neler-yapmalisiniz" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -20,7 +20,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Panik yapmayın! Panik yapmaya başladıktan sonra hata yapmaya da başlarsınız! Binanızın önünden uzaklaşın! Dışarı çıktıktan sonra binanızın önünde beklemeyin.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/deprem-oncesinde-sirasinda-ve-sonrasinda-neler-yapilmali-374" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -33,7 +33,20 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Depremlerde yaşanan yaralanmaların en yaygın sebebi, sarsıntılar sırasında yüksek raflardan ve tavandan düşen/fırlayan cisimlerdir. Çök Kapan Tutun Yöntemi'nde, masa benzeri bir cismin altına girme önerisinin nedeni, düşen büyük bloklardan korunmak değil, düşen ve fırlayan cisimlerden (televizyon, lambalar, cam nesneler, kitaplar ve kitaplıklar gibi) korunmaktır.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/hayat-ucgeni-vs-cok-kapan-tutun-deprem-sirasinda-hangi-yontem-uygulanmali-9505" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
+          <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="w-full p-6 border border-gray-200 rounded-lg shadow bg-[#FCFFE720]">
+        <a href="https://www.youtube.com/watch?v=08gcIwc7h5g" target="_blank">
+          <h2 class="mb-2 text-xl lg:text-2xl font-bold tracking-tight text-primary">Deprem Çantası Nasıl Hazırlanır?</h2>
+        </a>
+        <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Deprem ve afet hazırlık çantası nasıl olmalı?<small class="italic"> -Murat Şen</small></p>
+        <a href="https://www.youtube.com/watch?v=08gcIwc7h5g" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
+          İzle
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -46,7 +59,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Deprem dediğimiz doğa olayı, yer kabuğundaki kırılmalar nedeniyle ortaya çıkan titreşimlerin dalgalar halinde yayılmasıdır. Bu olay, sanılanın aksine, yerkabuğunun hareketsiz değil de hareketli olduğunun bir göstergesi olup, kaotik süreçler içeren ve fizik bilimi başta olmak üzere diğer bilim dalları tarafından da incelenen bir olgudur.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/deprem-nedir-depremlere-sebep-olan-doga-yasalari-ve-bu-yasalari-aciklayan-modeller-nelerdir-8936" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -85,7 +98,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Deprem ışıkları, depremler sırasında veya öncesinde görülebilen levha biçimli şimşekler, ışık topları, ışık akıntıları ve sabit parlamalar gibi olaylardır.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/deprem-isiklari-depremler-sirasinda-neden-gokyuzunde-isiklar-beliriyor-13416" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -98,7 +111,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Tsunamiler, yeryüzünde bilinen en yıkıcı doğa olaylarından birisidir. Gelgit dalgası olarak da bilinen "tsunami", genellikle depremler, volkanik patlamalar ve diğer su altı patlamaları etkisiyle çok miktarda suyun yer değiştirmesi sonucu okyanus, deniz ve büyük göllerde meydana gelebilen, sıra dışı yükseklikteki ve uzunluktaki dalgalara verilen isimdir.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/tsunami-nedir-turkiyede-tsunami-olabilir-mi-eger-olursa-nasil-onlem-almaliyiz-ve-tsunami-sirasinda-neler-yapilmali-9496" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -111,7 +124,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Depremle mücadelede önceden alınmış tedbirler birçok insanın hayatının kurtulmasını sağlamaktadır. Önceden alınması gereken önlemler arasında gıda ve beslenmenin yeri büyüktür. Afet sonrasında yaşanan besin kıtlığı, dezavantajlı bireyler başta olmak üzere tüm afetzedelerde enerji ve besin ögesi yetersizliklerine bağlı sağlık sorunlarının görülmesine neden olmaktadır.<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/deprem-sonrasi-beslenme-dogal-afetlerde-beslenme-nasil-olmali-14014" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>
@@ -124,7 +137,7 @@
         </a>
         <p class="mb-3 font-normal text-sm lg:text-base text-gray-700">Depremin büyüklüğü ile şiddeti arasında ne fark var? Bir deprem sırasında ne kadar enerji açığa çıkar?<small class="italic"> -Evrim Ağacı</small></p>
         <a href="https://evrimagaci.org/richter-olcegi-nedir-depremin-buyuklugu-siddeti-ve-gucu-arasindaki-fark-nedir-2128" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-secondary rounded-lg hover:opacity-80">
-          Devamını oku
+          Oku
           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
           </svg>

@@ -2,10 +2,13 @@
   <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script setup>
+import { faultData } from "../stores/faultData/faultData.js";
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
-  const map = L.map("mapContainer").setView([39.13, 35.211], 5);
+  const map = L.map("mapContainer", {
+    preferCanvas: true
+  }).setView([39.13, 35.211], 5);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
     maxZoom: 16,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
@@ -17,6 +20,7 @@ onMounted(() => {
     }
   }
 
+  // Earthquakes layer
   L.geoJSON(earthquakeStore.geojsonFeature, {
     onEachFeature,
     style: feature => {
@@ -32,6 +36,7 @@ onMounted(() => {
     }
   }).addTo(map);
 
+  // Info text
   L.Control.textbox = L.Control.extend({
     onAdd: function (map) {
       var text = L.DomUtil.create("div", "");
@@ -67,5 +72,17 @@ onMounted(() => {
     return new L.Control.textbox(opts);
   };
   L.control.textbox({ position: "topright" }).addTo(map);
+
+  // Fault data layer
+  let faultLayer = L.geoJSON(faultData, {
+    onEachFeature,
+    style: {
+      color: "#EB455F",
+      weight: 1.1,
+      opacity: 0.7
+    }
+  });
+
+  L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(faultLayer, "Fay Hatları");
 });
 </script>

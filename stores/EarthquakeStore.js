@@ -17,7 +17,7 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
     geojsonFeature: {
       type: "FeatureCollection",
       features: []
-    },
+    }
   }),
   actions: {
     modalToggle(item) {

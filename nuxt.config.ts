@@ -38,6 +38,9 @@ export default defineNuxtConfig({
           referrerpolicy: "no-referrer"
         },
         {
+          src: "https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js",
+        },
+        {
           src: "https://www.googletagmanager.com/gtag/js?id=G-1NZT3VV3SJ",
           async: "true"
         },
