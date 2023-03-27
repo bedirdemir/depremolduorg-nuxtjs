@@ -124,6 +124,9 @@ export default defineNuxtConfig({
     },
     "/inform": {
       swr: 60 * 60 * 24
+    },
+    "/public": {
+      swr: 60 * 60 * 24
     }
   }
 });
