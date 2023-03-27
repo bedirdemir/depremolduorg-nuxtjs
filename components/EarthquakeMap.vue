@@ -2,7 +2,6 @@
   <div id="mapContainer" class="min-h-[75vh]"></div>
 </template>
 <script setup>
-import { faultData } from "../stores/faultData/faultData.js";
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
@@ -74,15 +73,10 @@ onMounted(() => {
   L.control.textbox({ position: "topright" }).addTo(map);
 
   // Fault data layer
-  let faultLayer = L.geoJSON(faultData, {
-    onEachFeature,
-    style: {
-      color: "#EB455F",
-      weight: 1.1,
-      opacity: 0.7
-    }
+  let kmz = L.kmzLayer();
+  earthquakeStore.faultData.map(x => {
+    kmz.load(x);
   });
-
-  L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(faultLayer, "Fay Hatları");
+  L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(kmz, "Fay Hatları (GINRAS)");
 });
 </script>
