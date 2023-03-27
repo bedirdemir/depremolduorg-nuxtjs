@@ -77,7 +77,6 @@ onMounted(() => {
   earthquakeStore.faultData.map(x => {
     kmz.load(x);
   });
-
   L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(kmz, "Fay Hatları (GINRAS)");
 });
 </script>

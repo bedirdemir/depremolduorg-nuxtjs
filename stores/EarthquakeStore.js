@@ -19,17 +19,17 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
       features: []
     },
     faultData: [
-      "FaultData/AFEAD_I35_2018.kml",
-      "FaultData/AFEAD_I36_2018.kml",
-      "FaultData/AFEAD_I37_2018.kml",
-      "FaultData/AFEAD_J35_2018.kml",
-      "FaultData/AFEAD_J36_2018.kml",
-      "FaultData/AFEAD_J37_2018.kml",
-      "FaultData/AFEAD_J38_2018.kml",
-      "FaultData/AFEAD_K35_2018.kml",
-      "FaultData/AFEAD_K36_2018.kml",
-      "FaultData/AFEAD_K37_2018.kml",
-      "FaultData/AFEAD_K38_2018.kml"
+      "FaultData/AFEAD_I35.kmz",
+      "FaultData/AFEAD_I36.kmz",
+      "FaultData/AFEAD_I37.kmz",
+      "FaultData/AFEAD_J35.kmz",
+      "FaultData/AFEAD_J36.kmz",
+      "FaultData/AFEAD_J37.kmz",
+      "FaultData/AFEAD_J38.kmz",
+      "FaultData/AFEAD_K35.kmz",
+      "FaultData/AFEAD_K36.kmz",
+      "FaultData/AFEAD_K37.kmz",
+      "FaultData/AFEAD_K38.kmz"
     ]
   }),
   actions: {
