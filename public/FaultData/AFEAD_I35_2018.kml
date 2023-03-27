@@ -1,0 +1,3314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AFEAD_I35_2018</name>
+	<Folder id="07639F6427285A1AFD79">
+		<name>AFEAD_I35_2018</name>
+		<open>1</open>
+		<Document id="117BC6B1C3285A1AFD79">
+			<name>1_A.kml</name>
+			<Style id="line1">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>4</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996) // Seism= M6.0 2013-06-16 D19 km (GCMT)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							25.5299133227,34.314590691,0 25.4847035636,34.3026933859,0 25.4230126459,34.275921461,0 25.3609715912,34.2646220098,0 25.26596821960001,34.256885773,0 25.1612719353,34.2330911629,0 25.0659184265,34.2512970282,0 24.9873962133,34.2489175672,0 24.9469453762,34.2441586452,0 24.9064945391,34.2465381062,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>IONIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NE</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 56= 35 NE; 60= V2.2-2.7**, VV3-13**, VV6 15**; 80= M7.0 1629; 82= 3500.00 2341.00; 80= M7.2 1805; 82= 3506.00 2400.00; 37= UC, LC, M (DB, 1996) // Seism= M5.5 1953-02-07 D15 km (NEIC)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							24.2664195286,34.6634196744,0 24.2045535424,34.6586607524,0 24.1114186798,34.6151304101,0 24.0334074185,34.5995281578,0 24,34.6046677607,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996) // Seism= M5.4 1957-10-05 D15 km (NEIC)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							26.8124428048,34.2417791842,0 26.7695980364,34.2466645048,0 26.7363000526,34.2512970282,0 26.6553983784,34.2298818792,0 26.599757093,34.1924582508,0 26.5245280231,34.165636432,0 26.4461808785,34.1046002686,0 26.3700381263,34.0712878145,0 26.3175149156,34.0490428427,0 26.2699256955,34.0419044597,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996) // Seism= M5.0 1992-07-20 D2 km (ISC)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							26.2746846175,34.0561812257,0 26.2461310854,34.0704579918,0 26.2056802483,34.0942526018,0 26.1339955945,34.115069897,0 26.1081223471,34.1251855949,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996) // Seism= M5.0 2001-12-30 D10 km (ISC)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line1</styleUrl>
+					<LineString>
+						<coordinates>
+							27.4421916868,34.6337108225,0 27.42396428329999,34.591559952,0 27.3741706707,34.5376621717,0 27.2599565424,34.4995907956,0 27.1885727123,34.4520015754,0 27.1241521966,34.4273771426,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="25E17A2FD9285A1AFD79">
+			<name>1_B.kml</name>
+			<Style id="line10">
+				<LineStyle>
+					<color>cc0000ff</color>
+					<width>4</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							28.0878339039,34.9603764079,0 28.1164161608,34.9997408454,0 28.133043663,35.0436575431,0 28.1687355781,35.0926744399,0 28.2045170729,35.1548035664,0 28.2567756353,35.2054608915,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996) // Seism= (?) M5.6 1932-05-14 D35 km (ISC)<br>
+
+<br>
+
+The foot of the underwater slope is present<br>]]></description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							28.3352978485,35.8160305856,0 28.3638513806,35.8493430397,0 28.3733692246,35.8921733378,0 28.41850008,35.95100004,0 28.4387592638,36,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							27.1241521966,34.4273771426,0 27.0789424375,34.3607522345,0 27.00755860729999,34.3250603194,0 26.9599693872,34.2798505603,0 26.905241784,34.2465381062,0 26.8505141809,34.2275024181,0 26.8029249608,34.2298818792,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							24.6923078871,34.2964740508,0 24.6399949065,34.3526620671,0 24.5614726933,34.4121485922,0 24.4829504801,34.5073270324,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>1</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line10</styleUrl>
+					<LineString>
+						<coordinates>
+							28.104490131,34.9532380249,0 28.05928037190001,34.9246844929,0 28.0069322297,34.9118354034,0 27.9474457046,34.9070764814,0 27.8974770235,34.8785229493,0 27.8359610318,34.8637795239,0 27.7881968857,34.8279564144,0 27.6930184455,34.8089207263,0 27.6262184688,34.7619293601,0 27.5454918631,34.7327779741,0 27.4644151204,34.6891178533,0 27.4263437443,34.6367697111,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="01F95AF720285A1AFD7A">
+			<name>2_A.kml</name>
+			<Style id="line11">
+				<LineStyle>
+					<color>ff0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>CYPRUS TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>A</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+McKenzie, 1978; Ben-Avraham et al., 1993<br>
+
+<br>
+
+10= RS, OF, HC, GD // 37= UC, LC, M (DB, 1996) // Seism= M6.8 1926-03-18 D15 km (NEIC)<br>
+
+<br>
+
+The foot of the underwater slope is present // Registered depth of hypocentres of earthquakes is up to 100 km (DB, 1996)<br>]]></description>
+					<styleUrl>#line11</styleUrl>
+					<LineString>
+						<coordinates>
+							29.6059236757,35.9718854436,0 29.5488166116,35.9885416707,0 29.4631560153,35.9802135571,0 29.41241395999999,36,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="14BC4A1B57285A1AFD7A">
+			<name>2_B.kml</name>
+			<Style id="line12">
+				<LineStyle>
+					<color>cc0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= VV2.2-2.7**, VV3-13**, VV6-15**; 80= M6.8 267 BC; 82= 3448.00 2500.00; 80= M7.2 1494; 82= 3500.00 2430.00; 80= M7.0 1780; 82= 3454.00 2448.00 (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							24.4829504801,34.5073270324,0 24.428222877,34.5453984085,0 24.3427373493,34.5709746257,0 24.2925935996,34.6096438557,0 24.2616606066,34.6462875552,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= VV2.2-2.7**, VV3-13**, VV6-15**; 80= M6.8 267 BC; 82= 3448.00 2500.00; 80= M7.2 1494; 82= 3500.00 2430.00; 80= M7.0 1780; 82= 3454.00 2448.00 (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							24.5567137713,34.7248097684,0 24.5162629342,34.7200508464,0 24.4712282436,34.69946552,0 24.3925309619,34.6753169794,0 24.3449417418,34.6753169794,0 24.2664195286,34.6634196744,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							26.2100651325,34.5372961007,0 26.1414348012,34.4987609728,0 26.065292049,34.4773458238,0 26.0224617509,34.4678279797,0 25.9820109138,34.4392744477,0 25.9272833106,34.3774084615,0 25.8440021754,34.3440960074,0 25.7821361893,34.3226808584,0 25.6964755931,34.3298192414,0 25.6250917629,34.3179219364,0 25.5727436208,34.3226808584,0 25.5299133227,34.314590691,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STRABO TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= V2.2-2.7, V3-13, V6-15; 80= M7.1; 81= 1948; 82= 3530.00 2711.00; 83= >75; 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of earthquakes is up to 75 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							26.1081223471,34.1251855949,0 26.0533947439,34.1299445169,0 26.0083600534,34.1617073327,0 25.9226994572,34.1759840988,0 25.8132442509,34.1712251768,0 25.7561371868,34.1950197868,0 25.6561998245,34.1902608648,0 25.5800570723,34.2235733189,0 25.5084981736,34.2836576979,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PALAEOCHORA-TYMPAKI f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-4.5 mm/y; Depth= 0-10.5 km; Dip= S 55-80 deg; Rake= 250-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							24.3197399529,35.2030369452,0 24.3093467292,35.2048444624,0 24.2819829276,35.2000855403,0 24.249860204,35.2012752708,0 24.2141682889,35.2000855403,0 24.1749071823,35.2096033844,0 24.1487331113,35.2012752708,0 24.1273713666,35.2002071836,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KARPATHOS 1 f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+E</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.5-3.0 mm/y; Depth= 2-12 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013) // Seism= (?) M7.3 1948-02-09 D15 km (NEIC)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							27.1031359585,35.7227112708,0 27.1034288153,35.7250541248,0 27.11770558130001,35.7583665788,0 27.1224645033,35.8035763379,0 27.1415001914,35.844027175,0 27.1391207303,35.8797190901,0 27.1272234253,35.9082726222,0 27.1367412693,35.9439645373,0 27.1322584323,36,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							24.9088740001,34.2679532552,0 24.839869631,34.2798505603,0 24.7803831058,34.2679532552,0 24.7042403536,34.2836576979,0 24.6923078871,34.2964740508,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line12</styleUrl>
+					<LineString>
+						<coordinates>
+							28.2448783303,35.2173581966,0 28.2615345574,35.2459117286,0 28.2924675504,35.2744652607,0 28.3138826995,35.3268134028,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="2D38BE4851285A1AFD7A">
+			<name>2_C.kml</name>
+			<Style id="line13">
+				<LineStyle>
+					<color>aa0000ff</color>
+					<width>3</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996)<br>
+
+<br>
+
+(?) The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line13</styleUrl>
+					<LineString>
+						<coordinates>
+							28.3043648555,35.551910414,0 28.3138826995,35.5923612511,0 28.31050008,35.6372659731,0 28.3329183875,35.7208521454,0 28.3590924586,35.7613029825,0 28.3733692246,35.8207895076,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>MESSARA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 4.3-5.8 mm/y; Depth= 1.5-10.5 km; Dip= S 55-80 deg; Rake= 260-300 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line13</styleUrl>
+					<LineString>
+						<coordinates>
+							24.7085013129,34.8886735812,0 24.6513942488,34.8958119642,0 24.6109434117,34.9100887303,0 24.5609747305,34.9172271133,0 24.5276622764,34.9362628013,0 24.5038676664,34.9624368724,0 24.4562784463,34.9862314824,0 24.4426770731,34.9966325325,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>2</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line13</styleUrl>
+					<LineString>
+						<coordinates>
+							28.3019853945,35.3520356895,0 28.297401541,35.4370984319,0 28.3186416215,35.5138390379,0 28.3186416215,35.554289875,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="3CE10DD07C285A1AFD7A">
+			<name>3_B.kml</name>
+			<Style id="line14">
+				<LineStyle>
+					<color>cc0000ff</color>
+					<width>2</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= VV2.2-2.7**, VV3-13**, VV6-15**; 80= M6.8 267 BC; 82= 3448.00 2500.00; 80= M7.2 1494; 82= 3500.00 2430.00; 80= M7.0 1780; 82= 3454.00 2448.00 (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							25.161572759,34.8675774287,0 25.1068451558,34.8628185067,0 25.0592559357,34.8485417407,0 24.9804328989,34.8422331804,0 24.9274117254,34.822048673,0 24.8803204681,34.7928623531,0 24.8136955599,34.7738266651,0 24.7684858008,34.747652594,0 24.7161376587,34.728616906,0 24.6807076043,34.7103824834,0 24.6328565235,34.7024428349,0 24.5495753883,34.7143401399,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, SP // 60= V2.2-15.0; 80= M7.2; 81= 227 BC; 82= 3618.00 2818.00; 80= M7.0; 81= 183; 82= 3618.00 2830.00; 80= M7.2; 81= 1481; 82= 3611.00 2830.00 (DB, 1996)<br>
+
+<br>
+
+The underwater valley is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							28.2628771152,36,0 28.2595379801,35.9959188348,0 28.2210837203,35.9811651794,0 28.1853918052,35.9502321864,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2014<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							28.3352978485,35.8160305856,0 28.2377399473,35.7589235215,0 28.1828561313,35.7101046711,0 28.1177927444,35.6915151319,0 28.0550530499,35.6659545157,0 28.0132265869,35.6101858983,0 27.9688608536,35.563807719,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							26.5507020942,34.6986356973,0 26.488836108,34.6605643212,0 26.4033505803,34.6138049238,0 26.3129310621,34.5947692358,0 26.2177526219,34.5424210937,0 26.2100651325,34.5372961007,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PALAEOCHORA-TYMPAKI f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-4.5 mm/y; Depth= 0-10.5 km; Dip= S 55-80 deg; Rake= 250-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							24.0095346424,35.2203109589,0 24.0023962594,35.2226904199,0 24,35.2236120581,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PALAEOCHORA-TYMPAKI f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-4.5 mm/y; Depth= 0-10.5 km; Dip= S 55-80 deg; Rake= 250-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							24.1273713666,35.2002071836,0 24.1249385012,35.2000855403,0 24.0749698201,35.2012752708,0 24.041657366,35.1929471573,0 24.020242217,35.1965163488,0 24.0059654509,35.2048444624,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PALAEOCHORA-TYMPAKI f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-4.5 mm/y; Depth= 0-10.5 km; Dip= S 55-80 deg; Rake= 250-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							24.5829847448,35.1298914407,0 24.5520517518,35.1334606322,0 24.5270674112,35.1429784762,0 24.5068419926,35.1608244337,0 24.4878063046,35.1691525473,0 24.465201425,35.1822395828,0 24.4402170845,35.1869985048,0 24.4152327439,35.1905676963,0 24.3950073254,35.2000855403,0 24.36526406280001,35.2048444624,0 24.3367105307,35.2000855403,0 24.3197399529,35.2030369452,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KAMILONISI BASIN NORTH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= S 45-70 deg; Rake= 260-280 deg (Basili et al., 2013) // Seism= M6.1 1956-07-30 D15 km (NEIC)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							26.2809692511,35.7902330008,0 26.2777558462,35.7916790329,0 26.2230282431,35.7916790329,0 26.1799820695,35.802705604,0 26.1323928493,35.800326143,0 26.0850195048,35.7892995719,0 26.0350508236,35.7869201109,0 25.9993589086,35.8011968769,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KARPATHOS 1 f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.5-3.0 mm/y; Depth= 2-12 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							27.03918336810001,35.6132194575,0 27.0510806731,35.6417729895,0 27.07725474420001,35.6584292166,0 27.0986698932,35.6869827487,0 27.1031359585,35.7227112708,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CYPRUS TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+McKenzie, 1978; Ben-Avraham et al., 1993<br>
+
+<br>
+
+10= RS, OF, HC, GD // 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+(?) The edge of the underwater hills is present // Registered depth of hypocentres of earthquakes is up to 100 km (DB, 1996)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							30,35.8591106745,0 29.9580839046,35.8814659254,0 29.8367313933,35.8909837694,0 29.7534502581,35.9171578405,0 29.6630307398,35.9266756845,0 29.5964058317,35.9528497556,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CYPRUS TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+McKenzie, 1978; Ben-Avraham et al., 1993<br>
+
+<br>
+
+10= RS, OF, HC, GD // 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+The foot of the underwater slope is present // Registered depth of hypocentres of earthquakes is up to 100 km (DB, 1996)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							29.820406074,36,0 29.7891421731,35.9933005927,0 29.736794031,35.9909211317,0 29.6701691229,35.9695059826,0 29.6059236757,35.9718854436,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>S</b> &nbsp;
+
+SNS2= <b>R</b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, HC, FM, GD // 37= UC, LC, (M) (DB, 1996)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							28.3971638347,35.4196123821,0 28.3614719196,35.3615535335,0 28.3138826995,35.3268134028,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							24.9064945391,34.2465381062,0 24.863664241,34.2108461911,0 24.8089366379,34.1918105031,0 24.7589679568,34.2013283471,0 24.69234304860001,34.2013283471,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							26.8528936419,34.7866757545,0 26.79578657780001,34.7747784495,0 26.7267822086,34.7367070734,0 26.6557575728,34.699084287,0 26.6032253048,34.694706598,0 26.5530815552,34.6796000093,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KAMILONISI BASIN SOUTH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 2-11.5 km; Dip= N 50-70 deg; Rake= 270-310 deg (Basili et al., 2013) // Seism= (?) M5.8 1956-09-06 D15 km (NEIC)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							25.9658305789,35.5909335745,0 26.001522494,35.5790362695,0 26.0229376431,35.5576211204,0 26.0588454337,35.5537329323,0 26.0969168098,35.5489740103,0 26.1349881859,35.5370767053,0 26.177818484,35.5465945493,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>B</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 60= VV2.2-2.7**, VV3-13**, VV6-15**; 80= M6.8 267 BC; 82= 3448.00 2500.00; 80= M7.2 1494; 82= 3500.00 2430.00; 80= M7.0 1780; 82= 3454.00 2448.00 (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line14</styleUrl>
+					<LineString>
+						<coordinates>
+							25.3230752837,34.8850634785,0 25.268172612,34.8618667223,0 25.197264674,34.8580595847,0 25.166331681,34.8556801237,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="427B65C16E285A1AFD7A">
+			<name>3_C.kml</name>
+			<Style id="line15">
+				<LineStyle>
+					<color>aa0000ff</color>
+					<width>2</width>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							27.29309392800001,34.9342023369,0 27.2409208544,34.9040991665,0 27.15526025819999,34.8898224005,0 27.1003575865,34.8485417407,0 27.0575272884,34.8366444356,0 27.0083049144,34.8325200908,0 26.9790050752,34.8199882086,0 26.9298364749,34.7866238012,0 26.8576525639,34.7700195275,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>V</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971<br>
+
+<br>
+
+10= RS // 80= M7.2; 81= 1508; 82= 3500.00 2530.00 (DB, 1996)<br>
+
+<br>
+
+Originally it was: rate of motion T (DB, 1996)<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.6371641365,34.9516883867,0 25.5467446182,34.9231348546,0 25.43728941199999,34.9231348546,0 25.3230752837,34.8850634785,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA 1 f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= N 40-65 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.172496209,35.7092901956,0 25.2058086631,35.7021518126,0 25.2438800392,35.7069107346,0 25.3033665643,35.7188080396,0 25.3747503945,35.7116696566,0 25.4163909621,35.7250541248,0 25.4616007212,35.7393308908,0 25.5187077854,35.7440898128,0 25.5639175445,35.7250541248,0 25.6043683816,35.7321925078,0 25.6495781407,35.7369514298,0 25.6876495168,35.7298130468,0 25.7328592759,35.7298130468,0 25.770930652,35.7155362807,0 25.8113814891,35.7179157417,0 25.8613501702,35.7036389757,0 25.8958523548,35.6950134296,0 25.9196469649,35.6759777415,0 25.987245728,35.6575584826,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PSILI f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.8-0.8 mm/y; Depth= 0-10.5 km; Dip= SW 55-80 deg; Rake= 260-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.6817323766,35.1480348308,0 24.6626966885,35.1539834834,0 24.6389020785,35.1563629444,0 24.62581504290001,35.1587424054,0 24.6115382769,35.1670705189,0 24.5984512414,35.1765883629,0 24.5734669008,35.1825370154,0 24.5556209433,35.1920548594,0 24.5449133687,35.2015727035,0 24.5306366027,35.212280278,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KYAMON f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0.5-11 km; Dip= N 45-70 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present.<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24,35.6669920664,0 24.0612879193,35.6712188195,0 24.0993592954,35.6569420535,0 24.1612252816,35.6521831315,0 24.2111939627,35.6331474434,0 24.2397474947,35.6212501384,0 24.28257779280001,35.6212501384,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA 2 f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1-10.5 km; Dip= N 50-70 deg; Rake= 250-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.3658589281,35.6902545075,0 24.4086892262,35.6807366635,0 24.4610373683,35.6854955855,0 24.5038676664,35.6854955855,0 24.5443185035,35.7045312736,0 24.5942871846,35.7116696566,0 24.6299790997,35.6950134296,0 24.6728093978,35.6950134296,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0.5-11 km; Dip= N 40-65 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.5490774255,35.480861939,0 24.5847693406,35.5046565491,0 24.6490147877,35.5165538541,0 24.6894656248,35.5117949321,0 24.737054845,35.5213127761,0 24.7917824481,35.5165538541,0 24.8536484342,35.5141743931,0 24.8940992713,35.5189333151,0 24.9321706474,35.5070360101,0 24.9940366336,35.5189333151,0 25.0416258537,35.5022770881,0 25.0987329178,35.4998976271,0 25.146322138,35.5189333151,0 25.2081881241,35.5236922371,0 25.2895877611,35.5028935173,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA 1 f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= N 40-65 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.8322332852,35.7687767207,0 24.8679252003,35.7616383377,0 24.9202733424,35.7592588767,0 24.9559652575,35.7521204937,0 25.0118825911,35.7702638839,0 25.0689896553,35.7726433449,0 25.1046815704,35.7583665788,0 25.1427529465,35.7512281958,0 25.1760654005,35.7393308908,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PALAEOCHORA-TYMPAKI f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>V</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2015<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+The edge of the underwater hills is present.<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.0892465861,35.2333979944,0 24.0773492811,35.2357774554,0 24.058313593,35.2274493419,0 24.034518983,35.2250698809,0 24.022621678,35.2215006894,0 24.0083449119,35.2203109589,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>E PSILORITIS f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0-11 km; Dip= E 55-80 deg; Rake= 250-275 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.049359102,35.3407711723,0 25.0457899105,35.3253046758,0 25.03389260539999,35.3110279097,0 25.0219953004,35.2979408742,0 25.0196158394,35.2777154557,0 25.0077185344,35.2646284201,0 24.9993904209,35.2491619236,0 24.9970109598,35.2277467745,0 25.0005801514,35.2134700085,0 24.9982006904,35.1968137815,0 25.00533907339999,35.1765883629,0 25.0005801514,35.1575526749,0 25.0005801514,35.1444656393,0 24.9958212293,35.1301888733,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>AGIA GALINI f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0-10.5 km; Dip= S 55-80 deg; Rake= 250-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.8447254555,35.1099634547,0 24.8268794979,35.1123429158,0 24.8078438099,35.1182915683,0 24.7935670438,35.1159121073,0 24.7757210863,35.1159121073,0 24.7495470152,35.1040148022,0 24.7269421357,35.1016353412,0 24.7055269866,35.0980661497,0 24.6793529156,35.0992558802,0 24.6507993835,35.0933072277,0 24.6222458514,35.0968764192,0 24.6019235304,35.1021922839,0 24.5709905373,35.1140895889,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-1.3 mm/y; Depth= 1.0-10.5 km; Dip= S 55-75 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.9321706474,34.8934325032,0 24.9155144204,34.8934325032,0 24.8655457393,34.9005708862,0 24.8084386751,34.8981914252,0 24.753711072,34.8815351982,0 24.7085013129,34.8886735812,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KASTELLI f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-0.5 mm/y; Depth= 0-11 km; Dip= NW 60-80 deg; Rake= 270-285 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.3396533447,35.1301888733,0 25.3467917277,35.1456553698,0 25.3574993022,35.1551732139,0 25.3598787632,35.1718294409,0 25.3741555293,35.1813472849,0 25.3848631038,35.1991932425,0 25.4122269054,35.2110905475,0 25.4253139409,35.2229878525,0 25.44672909000001,35.2253673135,0 25.4669545085,35.2325056965,0 25.4836107355,35.2360748881,0 25.51097453710001,35.2372646186,0 25.5228718421,35.2455927321,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>ZAKROS f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 0.5-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.40793443380001,35.3353794625,0 26.3848315915,35.2729565336,0 26.3586575204,35.2396440796,0 26.3467602154,35.2206083915,0 26.3348629104,35.1872959374,0 26.3277245274,35.1397067173,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>IERAPETRA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.9-1.3 mm/y; Depth= 0-11 km; Dip= NW 60-80 deg; Rake= 265-275 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.7667665952,35.023113128,0 25.7834228223,35.0445282771,0 25.8060277018,35.0564255821,0 25.8179250069,35.0754612702,0 25.8333915034,35.0897380362,0 25.8417196169,35.1099634547,0 25.8595655745,35.1254299513,0 25.865514227,35.1527937529,0 25.88692937600001,35.1694499799,0 25.8976369506,35.1908651289,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PRINIAS f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0-11 km; Dip= NW 55-80 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.08323490900001,35.1361375258,0 26.090373292,35.1563629444,0 26.1058397886,35.1753986324,0 26.1177370936,35.2063316255,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SITIA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0-11 km; Dip= NW 55-80 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.0130408093,35.0302515111,0 26.0225586534,35.0421488161,0 26.0404046109,35.0480974686,0 26.0653889515,35.0552358516,0 26.0772862565,35.0659434261,0 26.095132214,35.0718920787,0 26.1094089801,35.0933072277,0 26.1165473631,35.1194812988,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>ZAKROS f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 0.5-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.575188472,35.6441524506,0 26.579947394,35.5989426914,0 26.5656706279,35.5656302374,0 26.5609117059,35.5370767053,0 26.5680500889,35.5037642512,0 26.5561527839,35.4656928751,0 26.5418760179,35.434759882,0 26.5204608688,35.415724194,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KARPATHOS 2 f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-3.0 mm/y; Depth= 2-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.9218955349,36,0 26.9202103178,35.9939332184,0 26.9106924738,35.9534823813,0 26.9225897788,35.9201699272,0 26.9440049279,35.8916163952,0 26.9392460059,35.8511655581,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SOFRANA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1-12 km; Dip= N 50-80 deg; Rake= 250-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.582326855,35.9511029203,0 26.62277769210001,35.9487234593,0 26.6560901462,35.9368261543,0 26.6798847562,35.9225493882,0 26.7203355933,35.9225493882,0 26.7512685864,35.9296877713,0 26.7845810405,35.9511029203,0 26.8250318776,35.9582413033,0 26.8488264876,35.9701386084,0 26.8868978637,35.9748975304,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>S ASTYPALAEA BASIN 4 f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1-11.5 km; Dip= N 50-70 deg; Rake= 250-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.0920127987,35.9188641255,0 26.1278498029,35.9320672323,0 26.177818484,35.9249288492,0 26.2206487821,35.9273083102,0 26.2801353072,35.9225493882,0 26.3134477613,35.9011342392,0 26.37769320849999,35.8987547782,0 26.4157645846,35.9154110052,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KAMILONISI BASIN SOUTH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 2-11.5 km; Dip= N 50-70 deg; Rake= 270-310 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.177818484,35.5465945493,0 26.2182693211,35.5370767053,0 26.2610996192,35.5370767053,0 26.2967915343,35.5394561663,0 26.3348629104,35.5489740103,0 26.3800726695,35.5394561663,0 26.4205235066,35.5561123933,0 26.4562154217,35.5608713154,0 26.4571672061,35.5603954232,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>N KASOS f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= NW 50-75 deg; Rake= 260-300 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.7131972103,35.432380421,0 26.7536480474,35.4466571871,0 26.7774426575,35.4799696412,0 26.8178934946,35.5013847902,0 26.8678621757,35.5156615562,0 26.9083130128,35.5370767053,0 26.9297281618,35.5632507764,0 26.9606611549,35.5822864644,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STAKIDA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-12 km; Dip= SE 50-75 deg; Rake= 260-300 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.9249692398,35.7417103518,0 26.893344479,35.7256110674,0 26.8481347199,35.7303699894,0 26.8148222658,35.7184726844,0 26.7791303507,35.6994369964,0 26.7417507424,35.6917416707,0 26.7084382883,35.6798443656,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>W KASOS f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 1-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.6846436782,35.6750854436,0 26.6775052952,35.6370140675,0 26.66322852920001,35.6108399965,0 26.66322852920001,35.5775275424,0 26.6441928411,35.5442150883,0 26.6418133801,35.5037642512,0 26.6513312242,35.4728312581,0 26.6553075126,35.451955744,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STENO KASOU f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-3.0 mm/y; Depth= 2-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.9812671232,35.5715794755,0 26.9837639972,35.6042585561,0 26.9956613023,35.6351915492,0 27.00755860729999,35.6970575353,0 26.9956613023,35.7565440605,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							29.8338760401,35.4819544225,0 29.7886662809,35.4700571175,0 29.7268002948,35.4771955005,0 29.6554164646,35.4629187345,0 29.5959299395,35.4605392735,0 29.5412023363,35.4486419684,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CYPRUS TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+McKenzie, 1978; Ben-Avraham et al., 1993<br>
+
+<br>
+
+10= RS, OF, HC, GD // 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+(?) The edge of the underwater hills is present // Registered depth of hypocentres of earthquakes is up to 100 km<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							29.9414340275,35.7220418759,0 29.8795680413,35.745836486,0 29.80342528910001,35.75535433,0 29.7082468489,35.8029435501,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2014<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							27.9688608536,35.563807719,0 27.9165127115,35.537633648,0 27.8553384931,35.4894874852,0 27.793472507,35.4799696412,0 27.7529730394,35.4498511235,0 27.6972044221,35.4242905073,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>MESSARA f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 4.3-5.8 mm/y; Depth= 1.5-10.5 km; Dip= S 55-80 deg; Rake= 260-300 deg (Basili et al., 2013)<br>
+
+<br>
+
+(?) The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							24.4426770731,34.9966325325,0 24.4158276092,35.0171644755,0 24.3682383891,35.0409590856,0 24.325408091,35.0480974686,0 24.28019833180001,35.0647536956,0 24.2254707287,35.0599947736,0 24.1802609696,35.0718920787,0 24.1279128275,35.0695126176,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS, HC // Seism= (?) M5.8 2009-06-19 D28 km (GCMT)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							28.4804449699,35.3482285519,0 28.4161995227,35.3053982538,0 28.3519540756,35.2816036437,0 28.3115032385,35.2435322676,0 28.2567756353,35.2054608915,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KAMILONISI BASIN NORTH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= S 45-70 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							26.4538359607,35.7298130468,0 26.4229029676,35.7440898128,0 26.3729342865,35.7512281958,0 26.3253450664,35.7702638839,0 26.2809692511,35.7902330008,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>KAMILONISI BASIN NORTH f.</b><br>
+
+<br>
+
+CONF= <b>C</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1.5-11.5 km; Dip= S 45-70 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+The edge of the underwater hills is present<br>]]></description>
+					<styleUrl>#line15</styleUrl>
+					<LineString>
+						<coordinates>
+							25.9993589086,35.8011968769,0 25.9444154299,35.797946682,0 25.9111029758,35.786049377,0 25.8587548337,35.783669916,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+		<Document id="0080DEDAC3285A1AFD7B">
+			<name>3_D.kml</name>
+			<Style id="line16">
+				<LineStyle>
+					<color>aa0000ff</color>
+				</LineStyle>
+			</Style>
+			<Folder>
+				<name>Line Features</name>
+				<description>Line Features</description>
+				<Placemark>
+					<description><![CDATA[<b>CYPRUS TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+McKenzie, 1978; Ben-Avraham et al., 1993<br>
+
+<br>
+
+10= RS, OF, HC, GD // 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+Registered depth of hypocentres of earthquakes is up to 100 km<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							30,35.7074326831,0 29.9414340275,35.7220418759,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>V</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NE</b><br>
+
+<br>
+
+Working material, data 2015<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							24.9291963212,35.1337580648,0 24.9125400941,35.1408964478,0 24.8911249451,35.1408964478,0 24.874468718,35.1408964478,0 24.8494843775,35.1527937529,0 24.8280692284,35.1527937529,0 24.8042746184,35.1623115969,0 24.7876183913,35.1682602494,0 24.7662032423,35.1861062069,0 24.7424086322,35.1968137815,0 24.7269421357,35.209900817,0 24.7174242917,35.2229878525,0 24.7055269866,35.2360748881,0 24.6876810291,35.2432132711,0 24.6650761495,35.2515413846,0 24.651989114,35.2658181506,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>MESSARA f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							24.1279128275,35.0695126176,0 24.0665448041,35.0983851463,0 24.0046788179,35.1150413733,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.6-1.3 mm/y; Depth= 1.0-10.5 km; Dip= S 55-75 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							25.58176350200001,34.9695752554,0 25.5270358989,34.9600574114,0 25.4723082958,34.9576779504,0 25.4199601536,34.9648163334,0 25.3628530895,34.9505395674,0 25.3033665643,34.9386422623,0 25.2629157272,34.9219860353,0 25.2105675851,34.9148476523,0 25.158219443,34.9172271133,0 25.0963534568,34.9029503472,0 25.0297285487,34.8958119642,0 24.9702420235,34.8934325032,0 24.9321706474,34.8934325032,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>DIONYSIADES f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+SE</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0.5-11 km; Dip= NW 65-85 deg; Rake= 260-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							25.9131034471,35.209900817,0 25.9309494046,35.2277467745,0 25.9642618587,35.2396440796,0 25.9831488305,35.2643309875,0 26.000994788,35.2866384344,0 26.0233022349,35.3029972288,0 26.0511121854,35.3098381792,0 26.0798144338,35.3267918389,0 26.093198902,35.3565351015,0 26.11297817159999,35.3847912009,0 26.1272549376,35.410965272,0 26.1546187392,35.427621499,0 26.1760338882,35.4478469176,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>ZAKROS f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>U</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b></b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 0.5-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							26.4942867978,35.410965272,0 26.4728716487,35.3800322789,0 26.4300413506,35.3633760519,0 26.40793443380001,35.3353794625,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>S ASTYPALAEA BASIN 4 f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 1-11.5 km; Dip= N 50-70 deg; Rake= 250-290 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							25.8613501702,35.8606834021,0 25.9160777734,35.8630628631,0 25.9565286104,35.8773396291,0 25.9993589086,35.8797190901,0 26.0445686677,35.8916163952,0 26.0826400438,35.9154110052,0 26.0920127987,35.9188641255,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							29.9028804092,35.5485793307,0 29.8695679551,35.5271641816,0 29.8552911891,35.4986106496,0 29.8338760401,35.4819544225,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							29.5412023363,35.4486419684,0 29.4793363502,35.4319857414,0 29.415090903,35.4296062804,0 29.3532249169,35.4581598125,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							29.5435817973,35.8269762684,0 29.4650595842,35.8269762684,0 29.400814137,35.8507708784,0 29.2842205477,35.8483914174,0 29.2413902496,35.8555298004,0 29.1390734264,35.8531503394,0 29.0534128301,35.8840833325,0 29.00582361,35.9340520136,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b></b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							29.4293676691,35.6508961539,0 29.3627427609,35.6461372319,0 29.2747027037,35.677070225,0 29.2080777955,35.68896753,0 29.15335019240001,35.7222799841,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>IONIC TRENCH f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NE</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 56= 35 NE; 60= V2.2-2.7**, VV3-13**, VV6 15**; 80= M7.0 1629; 82= 3500.00 2341.00; 80= M7.2 1805; 82= 3506.00 2400.00; 37= UC, LC, M (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							24.0070582789,34.6991115895,0 24,34.7002879693,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2014<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							27.6972044221,35.4242905073,0 27.6476336179,35.3996249096,0 27.5667319437,35.3853481436,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>W KASOS f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 1-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							26.6553075126,35.451955744,0 26.66084906820001,35.422862577,0 26.6537106852,35.40620635,0 26.6537106852,35.3586171299,0 26.6370544581,35.3181662928,0 26.6390347305,35.3190553947,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>STENO KASOU f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+W</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.5-3.0 mm/y; Depth= 2-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							26.9870243723,35.4775750484,0 26.991594148,35.5346972443,0 26.9812671232,35.5715794755,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>ZAKROS f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS, HC // Sense= N; Rate= 0.5-2.0 mm/y; Depth= 0.5-11 km; Dip= 70-90 deg; Rake= 230-270 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							26.3277245274,35.1397067173,0 26.3063093783,35.1016353412,0 26.2580283904,35.0569825248,0 26.2342337804,34.9974959996,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PTOLEMY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>V</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							25.8868324735,34.996068323,0 25.7964129553,34.979412096,0 25.7036139761,34.984171018,0 25.656024756,34.986550479,0 25.6227123019,34.974653174,0 25.58176350200001,34.9695752554,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>PLINY TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>T</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+N</b><br>
+
+<br>
+
+Papazachos et al., 1971; Jackson et al., 1988 a,b; Papadopoulos, 1989; Kovachov et al., 1991; Pavlides et al., 1991<br>
+
+<br>
+
+10= RS, OF, HC, FM, SP, GD // 80= M8.2 0365; 82= 3441.00 2600.00; 80= M7.0 1612; 82= 3409.00 2505.00; 80= M7.0 1681; 82= 3454.00 2448.00; 37= UC, LC, M; 15= 150 km (DB, 1996)<br>
+
+<br>
+
+Depth of hypocentres of EQ is up to 150 km. Total rate of V motion on all South Hellenic Trench faults is 2.2-2.7 mm/yr (Papadopoulos, 1989) or 3-13 (Jackson, McKenzie, 1988b) or 6-15 (Jackson, McKenzie, 1988a)<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							24.69234304860001,34.2013283471,0 24.6352359845,34.2322613402,0 24.6019235304,34.2679532552,0 24.5709905373,34.2988862483,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0.5-11 km; Dip= N 40-65 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							24.344443779,35.464205712,0 24.3920329991,35.468964634,0 24.4467606022,35.466585173,0 24.4943498224,35.476103017,0 24.5490774255,35.480861939,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>CENTRAL CRETAN SEA f.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>N</b> &nbsp;
+
+SNS2= <b></b> &nbsp;
+
+SIDE= <b>+S</b><br>
+
+<br>
+
+Basili et al., 2013<br>
+
+<br>
+
+10= RS // Sense= N; Rate= 0.1-1.0 mm/y; Depth= 0.5-11 km; Dip= N 40-65 deg; Rake= 260-280 deg (Basili et al., 2013)<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							25.2895877611,35.5028935173,0 25.3205207541,35.5028935173,0 25.3990429673,35.4838578292,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							27.4334821273,35.0151040111,0 27.3835134462,34.96513533,0 27.3216474601,34.9460996419,0 27.29309392800001,34.9342023369,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							28.7112526875,35.412473999,0 28.6660429283,35.395817772,0 28.6303510133,35.3696437009,0 28.5732439491,35.3601258569,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							28.2187042593,35.0626932312,0 28.1877712662,35.0246218551,0 28.1568382731,34.977032635,0 28.104490131,34.9532380249,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							27.8218101635,35.0317602381,0 27.7599441773,34.984171018,0 27.7028371132,34.972273713,0 27.6671451981,34.9484791029,0 27.614797056,34.9460996419,0 27.5405578726,34.9246844929,0 27.4739329644,34.9294434149,0 27.4334821273,34.9151666488,0 27.3858929072,34.9199255708,0 27.3264063821,34.9175461098,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							28.1853918052,35.9502321864,0 28.1449409681,35.9264375763,0 28.111628514,35.8907456612,0 28.0640392939,35.8669510512,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<description><![CDATA[<b>SE HELLENIC TRENCH f.z.</b><br>
+
+<br>
+
+CONF= <b>D</b> &nbsp;
+
+RATE= <b>3</b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+SNS1= <b>R</b> &nbsp;
+
+SNS2= <b>S</b> &nbsp;
+
+SIDE= <b>+NW</b><br>
+
+<br>
+
+Working material, data 2019<br>
+
+<br>
+
+10= RS<br>
+
+<br>
+
+<br>]]></description>
+					<styleUrl>#line16</styleUrl>
+					<LineString>
+						<coordinates>
+							28.5875207152,35.393438311,0 28.530413651,35.3625053179,0 28.4804449699,35.3482285519,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Document>
+	</Folder>
+</Document>
+</kml>

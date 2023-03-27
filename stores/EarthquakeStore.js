@@ -17,7 +17,20 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
     geojsonFeature: {
       type: "FeatureCollection",
       features: []
-    }
+    },
+    faultData: [
+      "FaultData/AFEAD_I35_2018.kml",
+      "FaultData/AFEAD_I36_2018.kml",
+      "FaultData/AFEAD_I37_2018.kml",
+      "FaultData/AFEAD_J35_2018.kml",
+      "FaultData/AFEAD_J36_2018.kml",
+      "FaultData/AFEAD_J37_2018.kml",
+      "FaultData/AFEAD_J38_2018.kml",
+      "FaultData/AFEAD_K35_2018.kml",
+      "FaultData/AFEAD_K36_2018.kml",
+      "FaultData/AFEAD_K37_2018.kml",
+      "FaultData/AFEAD_K38_2018.kml"
+    ]
   }),
   actions: {
     modalToggle(item) {
