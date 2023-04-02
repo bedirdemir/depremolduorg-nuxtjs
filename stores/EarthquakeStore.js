@@ -38,7 +38,8 @@ export const useEarthquakeStore = defineStore("EarthquakeStore", {
       this.selectedItem = item;
     },
     getRelativeTime(date, time) {
-      return dayjs(`${date} ${time}`, "YYYY.MM.DD hh:mm:ss").fromNow();
+      date = date.split('.').join('/');
+      return dayjs(`${date} ${time}`, "YYYY/MM/DD hh:mm:ss").fromNow();
     },
     getData(currentRoute) {
       this.loading = true;
