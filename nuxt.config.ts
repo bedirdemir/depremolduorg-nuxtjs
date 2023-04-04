@@ -38,21 +38,21 @@ export default defineNuxtConfig({
           referrerpolicy: "no-referrer"
         },
         {
-          src: "https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js",
+          src: "https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"
         },
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-1NZT3VV3SJ",
-          async: "true"
-        },
-        {
-          children: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        // {
+        //   src: "https://www.googletagmanager.com/gtag/js?id=G-1NZT3VV3SJ",
+        //   async: "true"
+        // },
+        // {
+        //   children: `
+        // window.dataLayer = window.dataLayer || [];
+        // function gtag(){dataLayer.push(arguments);}
+        // gtag('js', new Date());
   
-        gtag('config', 'G-1NZT3VV3SJ');
-        `
-        },
+        // gtag('config', 'G-1NZT3VV3SJ');
+        // `
+        // },
         {
           children: `
         if ('serviceWorker' in navigator) {
@@ -93,6 +93,7 @@ export default defineNuxtConfig({
       autoprefixer: {}
     }
   },
+  plugins: [{ src: "~/plugins/vercel.ts", mode: "client" }],
   modules: ["@pinia/nuxt"],
   imports: {
     dirs: ["stores"]
@@ -107,7 +108,7 @@ export default defineNuxtConfig({
     "/": {
       ssr: false,
       headers: {
-        'cache-control': 's-maxage=86400'
+        "cache-control": "s-maxage=86400"
       }
     },
     // "/map": {
@@ -119,7 +120,7 @@ export default defineNuxtConfig({
     "/map": {
       ssr: false,
       headers: {
-        'cache-control': 's-maxage=86400'
+        "cache-control": "s-maxage=86400"
       }
     },
     "/inform": {
