@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   srcDir: "app/",
+  compatibilityDate: "2026-04-19",
   app: {
     head: {
       htmlAttrs: { lang: "tr" },
@@ -84,6 +85,17 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt", "nuxt-gtag"],
   gtag: {
     id: "G-1NZT3VV3SJ"
+  },
+  vite: {
+    optimizeDeps: {
+      include: [
+        "@vue/devtools-core",
+        "@vue/devtools-kit",
+        "dayjs",
+        "dayjs/plugin/relativeTime",
+        "dayjs/locale/tr"
+      ]
+    }
   },
   imports: {
     dirs: ["stores"]
