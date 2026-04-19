@@ -5,6 +5,91 @@
 const earthquakeStore = useEarthquakeStore();
 
 onMounted(() => {
+  const faultColorsByConfidence = {
+    A: "#b91c1c",
+    B: "#ef4444",
+    C: "#f87171",
+    D: "#fca5a5"
+  };
+  const baseFaultWeightByRate = {
+    1: 4,
+    2: 3,
+    3: 2
+  };
+  const faultLayers = new Set();
+
+  function extractFaultMeta(layer) {
+    const description = layer?.feature?.properties?.description;
+    if (typeof description !== "string") {
+      return null;
+    }
+
+    const confidenceMatch = description.match(/CONF=\s*<b>\s*([ABCD])\s*<\/b>/i);
+    const rateMatch = description.match(/RATE=\s*<b>\s*([123])\s*<\/b>/i);
+    if (!confidenceMatch && !rateMatch) {
+      return null;
+    }
+
+    const confidence = confidenceMatch?.[1]?.toUpperCase();
+    const rate = Number(rateMatch?.[1]);
+
+    return {
+      confidence: ["A", "B", "C", "D"].includes(confidence) ? confidence : "C",
+      rate: [1, 2, 3].includes(rate) ? rate : 3
+    };
+  }
+
+  function getDynamicFaultWeight(rate, zoom) {
+    const baseWeight = baseFaultWeightByRate[rate] || 2;
+    const zoomFactor = Math.min(1.25, Math.max(0.58, 0.58 + (zoom - 5) * 0.09));
+
+    return Number((baseWeight * zoomFactor).toFixed(2));
+  }
+
+  function getFaultStyle(meta, zoom) {
+    return {
+      color: faultColorsByConfidence[meta.confidence] || faultColorsByConfidence.C,
+      weight: getDynamicFaultWeight(meta.rate, zoom),
+      opacity: 0.9
+    };
+  }
+
+  function styleFaultLayer(layer, zoom) {
+    if (typeof layer?.setStyle !== "function") {
+      return;
+    }
+
+    const meta = layer.__faultMeta || extractFaultMeta(layer);
+    if (!meta) {
+      return;
+    }
+
+    layer.__faultMeta = meta;
+    layer.setStyle(getFaultStyle(meta, zoom));
+    faultLayers.add(layer);
+  }
+
+  function collectAndStyleFaultLayers(layer, zoom) {
+    styleFaultLayer(layer, zoom);
+
+    if (typeof layer?.eachLayer === "function") {
+      layer.eachLayer(childLayer => {
+        collectAndStyleFaultLayers(childLayer, zoom);
+      });
+    }
+  }
+
+  function restyleFaultLayersByZoom(map) {
+    const zoom = map.getZoom();
+
+    faultLayers.forEach(layer => {
+      if (!layer?._map) {
+        return;
+      }
+      styleFaultLayer(layer, zoom);
+    });
+  }
+
   const map = L.map("mapContainer", {
     preferCanvas: true
   }).setView([39.13, 35.211], 5);
@@ -74,9 +159,32 @@ onMounted(() => {
 
   // Fault data layer
   let kmz = L.kmzLayer();
+  kmz.on("load", () => {
+    collectAndStyleFaultLayers(kmz, map.getZoom());
+  });
+
+  map.on("layeradd", event => {
+    collectAndStyleFaultLayers(event.layer, map.getZoom());
+  });
+
+  map.on("zoomend", () => {
+    restyleFaultLayersByZoom(map);
+  });
+
+  map.on("overlayadd", event => {
+    if (event.layer === kmz) {
+      collectAndStyleFaultLayers(kmz, map.getZoom());
+    }
+  });
+
   earthquakeStore.faultData.map(x => {
     kmz.load(x);
   });
   L.control.layers(null, null, { collapsed: false }).addTo(map).addOverlay(kmz, "Fay Hatları (GINRAS)");
+
+  // KMZ dosyaları asenkron yüklendiği için ilk render sonrası da tekrar uygula.
+  setTimeout(() => {
+    collectAndStyleFaultLayers(kmz, map.getZoom());
+  }, 1200);
 });
 </script>
