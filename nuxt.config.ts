@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  srcDir: "app/",
   app: {
     head: {
       htmlAttrs: { lang: "tr" },
@@ -40,19 +41,6 @@ export default defineNuxtConfig({
         {
           src: "https://unpkg.com/leaflet-kmz@latest/dist/leaflet-kmz.js"
         },
-        // {
-        //   src: "https://www.googletagmanager.com/gtag/js?id=G-1NZT3VV3SJ",
-        //   async: "true"
-        // },
-        // {
-        //   children: `
-        // window.dataLayer = window.dataLayer || [];
-        // function gtag(){dataLayer.push(arguments);}
-        // gtag('js', new Date());
-  
-        // gtag('config', 'G-1NZT3VV3SJ');
-        // `
-        // },
         {
           children: `
         if ('serviceWorker' in navigator) {
@@ -93,8 +81,10 @@ export default defineNuxtConfig({
       autoprefixer: {}
     }
   },
-  plugins: [{ src: "~/plugins/vercel.ts", mode: "client" }],
-  modules: ["@pinia/nuxt"],
+  modules: ["@pinia/nuxt", "nuxt-gtag"],
+  gtag: {
+    id: "G-1NZT3VV3SJ"
+  },
   imports: {
     dirs: ["stores"]
   },

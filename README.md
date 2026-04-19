@@ -1,4 +1,4 @@
-# depremoldu.org / Nuxt3 + Vue3 + Pinia + Tailwindcss
+# depremoldu.org / Nuxt4 + Vue3 + Pinia + Tailwindcss
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=bedirdemir.depremolduorg-nuxtjs)
 ![cover](https://github.com/bedirdemir/depremolduorg-nuxtjs/raw/main/public/githubcover.png)
@@ -6,7 +6,9 @@ This project shows the recent earthquakes in Türkiye. This data belong to [Boga
 
 ## API
 
-> https://github.com/bedirdemir/kandilli-earthquake-api
+> https://github.com/orhanayd/kandilli-rasathanesi-api
+>
+> https://api.orhanaydogdu.com.tr/deprem/api-docs/
 
 ## License
 

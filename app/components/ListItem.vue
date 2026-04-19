@@ -1,10 +1,10 @@
 <template>
-  <li :class="getDangerColor(data.magnitude).dangerBg" class="mb-2 shadow">
-    <div class="flex justify-between p-3 border rounded w-full">
+  <li :class="getDangerColor(data.magnitude).dangerBg" class="border-b border-stone-200 last:border-b-0 px-1">
+    <div class="flex justify-between p-3 w-full">
       <div class="flex items-center gap-5 lg:gap-6 w-full">
-        <span :class="getDangerColor(data.magnitude).dangerBox" class="flex flex-col justify-center items-center border rounded p-5 font-semibold text-xl lg:p-6 lg:text-2xl">
-          {{ data.magnitude }}
-          <span class="text-xs font-normal">
+        <span :class="getDangerColor(data.magnitude).dangerBox" class="flex h-24 w-16 shrink-0 flex-col items-center justify-center rounded-sm text-xl font-semibold leading-none tabular-nums lg:h-24 lg:w-24 lg:text-2xl">
+          {{ formattedMagnitude }}
+          <span class="mt-1 text-xs font-normal">
             {{ data.scale }}
           </span>
         </span>
@@ -53,6 +53,15 @@
 const earthquakeStore = useEarthquakeStore();
 const props = defineProps({
   data: Object
+});
+
+const formattedMagnitude = computed(() => {
+  const numericValue = Number(props.data?.magnitude);
+  if (!Number.isFinite(numericValue)) {
+    return props.data?.magnitude ?? "-";
+  }
+
+  return Number.isInteger(numericValue) ? numericValue.toFixed(1) : String(props.data.magnitude);
 });
 
 const getDangerColor = magnitude => {
